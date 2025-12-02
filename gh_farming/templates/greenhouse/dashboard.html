@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <h2>Обзор системы</h2>
+        
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="card text-white bg-primary">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ total_greenhouses }}</h5>
+                        <p class="card-text">Активных теплиц</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white bg-success">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ active_plantings }}</h5>
+                        <p class="card-text">Активных посадок</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white bg-warning">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ today_works }}</h5>
+                        <p class="card-text">Работ на сегодня</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h4>Ближайшие работы</h4>
+        <div class="list-group">
+            {% for work in upcoming_works %}
+            <div class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">{{ work.work_type.name }}</h6>
+                    <small>{{ work.planned_date }}</small>
+                </div>
+                <p class="mb-1">{{ work.planting.greenhouse.number }} - {{ work.planting.vegetable_type.name }}</p>
+                <small class="text-muted">Статус: {{ work.get_status_display }}</small>
+            </div>
+            {% empty %}
+            <div class="list-group-item">Нет предстоящих работ</div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <h4>Последний урожай</h4>
+        <div class="list-group">
+            {% for harvest in recent_harvests %}
+            <div class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">{{ harvest.planting.vegetable_type.name }}</h6>
+                    <small>{{ harvest.harvest_date }}</small>
+                </div>
+                <p class="mb-1">{{ harvest.quantity }} {{ harvest.get_unit_display }}</p>
+                <small class="text-muted">Качество: {{ harvest.get_quality_display }}</small>
+            </div>
+            {% empty %}
+            <div class="list-group-item">Нет данных об урожае</div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

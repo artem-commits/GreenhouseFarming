@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+
+{% block title %}График работ{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>📅 График работ</h2>
+    <a href="{% url 'greenhouse:workschedule_create' %}" class="btn btn-success">
+        ➕ Добавить работу
+    </a>
+</div>
+
+<!-- Фильтры -->
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-md-3">
+                <label class="form-label">Статус:</label>
+                <select name="status" class="form-select">
+                    <option value="">Все статусы</option>
+                    <option value="planned" {% if status_filter == 'planned' %}selected{% endif %}>Запланировано</option>
+                    <option value="in_progress" {% if status_filter == 'in_progress' %}selected{% endif %}>В работе</option>
+                    <option value="completed" {% if status_filter == 'completed' %}selected{% endif %}>Выполнено</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">Дата:</label>
+                <input type="date" name="date" value="{{ date_filter }}" class="form-control">
+            </div>
+            <div class="col-md-3 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary">Применить</button>
+                <a href="{% url 'greenhouse:workschedule_list' %}" class="btn btn-outline-secondary ms-2">Сбросить</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Таблица работ -->
+<div class="card">
+    <div class="card-body p-0">
+        {% if works %}
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Теплица</th>
+                        <th>Культура</th>
+                        <th>Вид работы</th>
+                        <th>Плановая дата</th>
+                        <th>Фактическая дата</th>
+                        <th>Статус</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for work in works %}
+                    <tr>
+                        <td>{{ work.planting.greenhouse.number }}</td>
+                        <td>{{ work.planting.vegetable_type.name }}</td>
+                        <td>{{ work.work_type.name }}</td>
+                        <td>{{ work.planned_date }}</td>
+                        <td>
+                            {% if work.actual_date %}
+                                {{ work.actual_date }}
+                            {% else %}
+                                <span class="text-muted">—</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <span class="badge bg-{% if work.status == 'completed' %}success{% elif work.status == 'in_progress' %}warning{% else %}secondary{% endif %}">
+                                {{ work.get_status_display }}
+                            </span>
+                        </td>
+                        <td>
+                            <div class="btn-group btn-group-sm">
+                                <a href="{% url 'greenhouse:planting_detail' work.planting.pk %}" 
+                                   class="btn btn-outline-primary" title="К посадке">
+                                    🌱
+                                </a>
+                                <a href="{% url 'greenhouse:workschedule_edit' work.pk %}" 
+                                   class="btn btn-outline-secondary" title="Редактировать">
+                                    ✏️
+                                </a>
+                                {% if work.status != 'completed' %}
+                                <form method="post" action="{% url 'greenhouse:workschedule_complete' work.pk %}" class="d-inline">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-outline-success btn-sm" 
+                                            title="Отметить выполненной">
+                                        ✅
+                                    </button>
+                                </form>
+                                {% endif %}
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="text-center py-5">
+            <h4 class="text-muted">Работ не найдено</h4>
+            <p class="text-muted">Создайте первую работу</p>
+            <a href="{% url 'greenhouse:workschedule_create' %}" class="btn btn-success">
+                ➕ Добавить работу
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

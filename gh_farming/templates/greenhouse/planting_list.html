@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+{% block title %}Список посадок{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>🌱 Список посадок</h2>
+    <a href="{% url 'greenhouse:planting_create' %}" class="btn btn-success">
+        ➕ Новая посадка
+    </a>
+</div>
+
+<!-- Фильтры -->
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-md-4">
+                <label class="form-label">Статус:</label>
+                <select name="status" class="form-select">
+                    <option value="">Все статусы</option>
+                    <option value="planned" {% if status_filter == 'planned' %}selected{% endif %}>Запланирована</option>
+                    <option value="planted" {% if status_filter == 'planted' %}selected{% endif %}>Посажена</option>
+                    <option value="growing" {% if status_filter == 'growing' %}selected{% endif %}>Растет</option>
+                    <option value="harvested" {% if status_filter == 'harvested' %}selected{% endif %}>Собрана</option>
+                </select>
+            </div>
+            <div class="col-md-4 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary">Применить</button>
+                <a href="{% url 'greenhouse:planting_list' %}" class="btn btn-outline-secondary ms-2">Сбросить</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Таблица посадок -->
+<div class="card">
+    <div class="card-body p-0">
+        {% if plantings %}
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Теплица</th>
+                        <th>Культура</th>
+                        <th>Дата посадки</th>
+                        <th>Статус</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for planting in plantings %}
+                    <tr>
+                        <td>#{{ planting.id }}</td>
+                        <td>{{ planting.greenhouse.number }}</td>
+                        <td>{{ planting.vegetable_type.name }}</td>
+                        <td>{{ planting.planting_date }}</td>
+                        <td>
+                            <span class="badge bg-{% if planting.status == 'growing' %}success{% elif planting.status == 'planted' %}warning{% else %}secondary{% endif %}">
+                                {{ planting.get_status_display }}
+                            </span>
+                        </td>
+                        <td>
+                            <div class="btn-group btn-group-sm">
+                                <a href="{% url 'greenhouse:planting_detail' planting.pk %}"
+                                   class="btn btn-outline-primary">👁️ Просмотр</a>
+                                <a href="{% url 'greenhouse:planting_edit' planting.pk %}"
+                                   class="btn btn-outline-secondary">✏️</a>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Пагинация -->
+        {% if is_paginated %}
+        <div class="card-footer">
+            <nav>
+                <ul class="pagination justify-content-center mb-0">
+                    {% if page_obj.has_previous %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page=1{% if status_filter %}&status={{ status_filter }}{% endif %}">«</a>
+                    </li>
+                    {% endif %}
+
+                    {% for num in page_obj.paginator.page_range %}
+                    <li class="page-item {% if page_obj.number == num %}active{% endif %}">
+                        <a class="page-link" href="?page={{ num }}{% if status_filter %}&status={{ status_filter }}{% endif %}">{{ num }}</a>
+                    </li>
+                    {% endfor %}
+
+                    {% if page_obj.has_next %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}{% if status_filter %}&status={{ status_filter }}{% endif %}">»</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+        {% endif %}
+
+        {% else %}
+        <div class="text-center py-5">
+            <h4 class="text-muted">Посадок не найдено</h4>
+            <p class="text-muted">Создайте первую посадку</p>
+            <a href="{% url 'greenhouse:planting_create' %}" class="btn btn-success">
+                ➕ Создать посадку
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

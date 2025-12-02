@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+{% load thumbnail %}
+
+{% block title %}Теплица {{ greenhouse.number }}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h2>Теплица {{ greenhouse.number }}</h2>
+                <p class="text-muted">{{ greenhouse.vegetable_type.name }}</p>
+            </div>
+            <a href="{% url 'greenhouse:greenhouse_list' %}" class="btn btn-secondary">
+                ← Назад к списку
+            </a>
+        </div>
+
+        <!-- Информация о теплице -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">📋 Информация о теплице</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Номер:</strong> {{ greenhouse.number }}</p>
+                        <p><strong>Культура:</strong> {{ greenhouse.vegetable_type.name }}</p>
+                        <p><strong>Описание культуры:</strong>
+                            {{ greenhouse.vegetable_type.description|default:"—" }}
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Площадь:</strong> {{ greenhouse.area }} кв.м</p>
+                        <p><strong>Статус:</strong>
+                            <span class="badge bg-{% if greenhouse.is_active %}success{% else %}secondary{% endif %}">
+                                {{ greenhouse.is_active|yesno:"Активна,Неактивна" }}
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        {% if greenhouse.image %}
+                        <a href="{{ greenhouse.image.url }}" target="_blank">
+                            <!-- Resize image for display -->
+                            {% thumbnail greenhouse.image "800x600" crop="center" as im %}
+                            <img src="{{ im.url }}"
+                                 width="{{ im.width }}"
+                                 height="{{ im.height }}"
+                                 alt="Теплица {{ greenhouse.number }}"
+                                 class="img-fluid rounded"
+                                 loading="lazy">
+                            {% endthumbnail %}
+                        </a>
+                        {% else %}
+                        <div class="text-center text-muted p-4 border rounded">
+                            <i class="bi bi-image fs-1"></i>
+                            <p class="mt-2">Изображение не добавлено</p>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Активные посадки -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">🌱 Активные посадки</h5>
+            </div>
+            <div class="card-body p-0">
+                {% if active_plantings %}
+                <div class="list-group list-group-flush">
+                    {% for planting in active_plantings %}
+                    <div class="list-group-item">
+                        <div class="d-flex w-100 justify-content-between align-items-center">
+                            <div>
+                                <h6 class="mb-1">{{ planting.vegetable_type.name }}</h6>
+                                <p class="mb-1 text-muted">
+                                    Посажена: {{ planting.planting_date }}
+                                </p>
+                                <small class="text-muted">
+                                    Планируемый сбор: {{ planting.planned_harvest_date }}
+                                </small>
+                            </div>
+                            <div>
+                                <span class="badge bg-success me-2">
+                                    {{ planting.get_status_display }}
+                                </span>
+                                <a href="{% url 'greenhouse:planting_detail' planting.pk %}"
+                                   class="btn btn-outline-primary btn-sm">
+                                    👁️
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="text-center py-4 text-muted">
+                    <p>Нет активных посадок</p>
+                    <a href="{% url 'greenhouse:planting_create' %}" class="btn btn-sm btn-success">
+                        ➕ Создать посадку
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Боковая панель -->
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">📊 Статистика</h5>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <p class="mb-1">Всего посадок:</p>
+                    <h4 class="text-primary">{{ planting_history|length }}</h4>
+                </div>
+
+                <div class="mb-3">
+                    <p class="mb-1">Активных посадок:</p>
+                    <h5 class="text-success">{{ active_plantings|length }}</h5>
+                </div>
+
+                <div class="mb-3">
+                    <p class="mb-1">Площадь:</p>
+                    <h5 class="text-info">{{ greenhouse.area }} кв.м</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- История посадок -->
+        <div class="card mt-4">
+            <div class="card-header">
+                <h5 class="mb-0">📅 История посадок</h5>
+            </div>
+            <div class="card-body">
+                {% if planting_history %}
+                <div class="list-group list-group-flush">
+                    {% for planting in planting_history %}
+                    <div class="list-group-item px-0">
+                        <small class="text-muted">{{ planting.planting_date }}</small><br>
+                        <strong>{{ planting.vegetable_type.name }}</strong><br>
+                        <span class="badge bg-{{ planting.status|yesno:'success,secondary' }} sm">
+                            {{ planting.get_status_display }}
+                        </span>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-muted mb-0">Нет истории посадок</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

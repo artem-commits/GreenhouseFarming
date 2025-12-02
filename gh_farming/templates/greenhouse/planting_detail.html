@@ -1,0 +1,228 @@
+{% extends 'base.html' %}
+
+{% block title %}Посадка {{ planting.greenhouse }} - {{ planting.vegetable_type }}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <!-- Заголовок с действиями -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h2>Посадка #{{ planting.id }}</h2>
+                <p class="text-muted">
+                    {{ planting.greenhouse }} → {{ planting.vegetable_type }}
+                </p>
+            </div>
+            <div class="d-flex gap-2">
+                <a href="{% url 'greenhouse:planting_edit' planting.pk %}" class="btn btn-outline-primary">
+                    ✏️ Редактировать
+                </a>
+                <a href="{% url 'greenhouse:planting_list' %}" class="btn btn-secondary">
+                    ← Назад к списку
+                </a>
+            </div>
+        </div>
+
+        <!-- Основная информация -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">📋 Информация о посадке</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Теплица:</strong> {{ planting.greenhouse.number }}</p>
+                        <p><strong>Культура:</strong> {{ planting.vegetable_type.name }}</p>
+                        <p><strong>Дата посадки:</strong> {{ planting.planting_date }}</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Планируемый сбор:</strong> {{ planting.planned_harvest_date }}</p>
+                        <p><strong>Фактический сбор:</strong>
+                            {% if planting.actual_harvest_date %}
+                                {{ planting.actual_harvest_date }}
+                            {% else %}
+                                <span class="text-muted">—</span>
+                            {% endif %}
+                        </p>
+                        <p><strong>Статус:</strong>
+                            <span class="badge bg-{% if planting.status == 'growing' %}success{% elif planting.status == 'planted' %}warning{% else %}secondary{% endif %}">
+                                {{ planting.get_status_display }}
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- График работ -->
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">📅 График работ</h5>
+                <a href="{% url 'greenhouse:workschedule_create' %}?planting={{ planting.pk }}"
+                   class="btn btn-sm btn-success">
+                    ➕ Добавить работу
+                </a>
+            </div>
+            <div class="card-body p-0">
+                {% if work_schedules %}
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Вид работы</th>
+                                <th>Плановая дата</th>
+                                <th>Фактическая дата</th>
+                                <th>Статус</th>
+                                <th>Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for work in work_schedules %}
+                            <tr>
+                                <td>{{ work.work_type.name }}</td>
+                                <td>{{ work.planned_date }}</td>
+                                <td>
+                                    {% if work.actual_date %}
+                                        {{ work.actual_date }}
+                                    {% else %}
+                                        <span class="text-muted">—</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <span class="badge bg-{% if work.status == 'completed' %}success{% elif work.status == 'in_progress' %}warning{% else %}secondary{% endif %}">
+                                        {{ work.get_status_display }}
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="btn-group btn-group-sm">
+                                        {% if work.status != 'completed' %}
+                                        <form method="post" action="{% url 'greenhouse:workschedule_complete' work.pk %}" class="d-inline">
+                                            {% csrf_token %}
+                                            <button type="submit" class="btn btn-outline-success btn-sm"
+                                                    title="Отметить выполненной">
+                                                ✅
+                                            </button>
+                                        </form>
+                                        {% endif %}
+                                        <a href="{% url 'greenhouse:workschedule_edit' work.pk %}"
+                                           class="btn btn-outline-primary btn-sm" title="Редактировать">
+                                            ✏️
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="text-center py-4 text-muted">
+                    <p>Нет запланированных работ</p>
+                    <a href="{% url 'greenhouse:workschedule_create' %}?planting={{ planting.pk }}"
+                       class="btn btn-sm btn-success">
+                        Добавить первую работу
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Урожай -->
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">📊 Урожай</h5>
+                <a href="{% url 'greenhouse:harvest_create' %}?planting={{ planting.pk }}"
+                   class="btn btn-sm btn-success">
+                    ➕ Добавить урожай
+                </a>
+            </div>
+            <div class="card-body p-0">
+                {% if harvests %}
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Дата сбора</th>
+                                <th>Количество</th>
+                                <th>Единица</th>
+                                <th>Качество</th>
+                                <th>Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for harvest in harvests %}
+                            <tr>
+                                <td>{{ harvest.harvest_date }}</td>
+                                <td>{{ harvest.quantity }}</td>
+                                <td>{{ harvest.get_unit_display }}</td>
+                                <td>
+                                    <span class="badge bg-{% if harvest.quality == 'excellent' %}success{% elif harvest.quality == 'good' %}info{% elif harvest.quality == 'average' %}warning{% else %}danger{% endif %}">
+                                        {{ harvest.get_quality_display }}
+                                    </span>
+                                </td>
+                                <td>
+                                    <a href="{% url 'greenhouse:harvest_edit' harvest.pk %}"
+                                       class="btn btn-outline-primary btn-sm">
+                                        ✏️
+                                    </a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="text-center py-4 text-muted">
+                    <p>Урожай еще не собран</p>
+                    <a href="{% url 'greenhouse:harvest_create' %}?planting={{ planting.pk }}"
+                       class="btn btn-sm btn-success">
+                        Добавить первый урожай
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Боковая панель со статистикой -->
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">📈 Статистика посадки</h5>
+            </div>
+            <div class="card-body">
+                {% if work_progress.total > 0 %}
+                <div class="mb-3">
+                    <p class="mb-1">Выполнено работ:</p>
+                    <div class="progress mb-2">
+                        <div class="progress-bar bg-success"
+                             style="width: {{ work_progress.percent }}%">
+                            {{ work_progress.percent }}%
+                        </div>
+                    </div>
+                    <small class="text-muted">
+                        {{ work_progress.completed }} из {{ work_progress.total }} работ
+                    </small>
+                </div>
+                {% endif %}
+
+                <div class="mb-3">
+                    <p class="mb-1">Всего урожая:</p>
+                    <h4 class="text-success">
+                        {% with total=harvests|length %}
+                            {{ total }} сбор{{ total|pluralize:"ов,ов" }}
+                        {% endwith %}
+                    </h4>
+                </div>
+
+                <div class="mb-3">
+                    <p class="mb-1">Дней с посадки:</p>
+                    <h5 class="text-primary">
+                        {{ planting.planting_date|timesince }}
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}Теплицы{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>🏠 Теплицы</h2>
+</div>
+
+<div class="row">
+    {% for greenhouse in greenhouses %}
+    <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card {% if not greenhouse.is_active %}bg-light{% endif %}">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                    <h5 class="card-title">Теплица {{ greenhouse.number }}</h5>
+                    <span class="badge bg-{% if greenhouse.is_active %}success{% else %}secondary{% endif %}">
+                        {{ greenhouse.is_active|yesno:"Активна,Неактивна" }}
+                    </span>
+                </div>
+                
+                <p class="card-text">
+                    <strong>Культура:</strong> {{ greenhouse.vegetable_type.name }}<br>
+                    <strong>Площадь:</strong> {{ greenhouse.area }} кв.м<br>
+                    <strong>Активных посадок:</strong> 
+                    {{ greenhouse.planting_set.count }}
+                </p>
+                
+                <a href="{% url 'greenhouse:greenhouse_detail' greenhouse.pk %}" 
+                   class="btn btn-outline-primary btn-sm">
+                    👁️ Подробнее
+                </a>
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <div class="col-12">
+        <div class="text-center py-5">
+            <h4 class="text-muted">Теплиц не найдено</h4>
+            <p class="text-muted">Создайте теплицы через админку</p>
+            <a href="/admin/greenhouse/greenhouse/add/" class="btn btn-success">
+                ➕ Создать теплицу
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

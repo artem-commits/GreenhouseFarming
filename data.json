@@ -1,0 +1,5621 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-11-30T09:30:48.978Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "полив",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-11-30T09:31:05.499Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "выкарчевывание",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-11-30T09:31:17.639Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "огурцы",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0433\\u0440\\u0430\\u0444\\u0438\\u043a\\u0430\", \"object\": \"\\u043e\\u0433\\u0443\\u0440\\u0446\\u044b - \\u043f\\u043e\\u043b\\u0438\\u0432 (\\u0434\\u0435\\u043d\\u044c 2)\"}}, {\"added\": {\"name\": \"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0433\\u0440\\u0430\\u0444\\u0438\\u043a\\u0430\", \"object\": \"\\u043e\\u0433\\u0443\\u0440\\u0446\\u044b - \\u0432\\u044b\\u043a\\u0430\\u0440\\u0447\\u0435\\u0432\\u044b\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0434\\u0435\\u043d\\u044c 60)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-11-30T09:31:55.271Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Теплица 1 (огурцы)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2025-11-30T09:37:25.504Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "обработка от насекомых",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2025-11-30T09:37:42.405Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "помидоры",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0433\\u0440\\u0430\\u0444\\u0438\\u043a\\u0430\", \"object\": \"\\u043f\\u043e\\u043c\\u0438\\u0434\\u043e\\u0440\\u044b - \\u043f\\u043e\\u043b\\u0438\\u0432 (\\u0434\\u0435\\u043d\\u044c 1)\"}}, {\"added\": {\"name\": \"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0433\\u0440\\u0430\\u0444\\u0438\\u043a\\u0430\", \"object\": \"\\u043f\\u043e\\u043c\\u0438\\u0434\\u043e\\u0440\\u044b - \\u043e\\u0431\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0430 \\u043e\\u0442 \\u043d\\u0430\\u0441\\u0435\\u043a\\u043e\\u043c\\u044b\\u0445 (\\u0434\\u0435\\u043d\\u044c 20)\"}}, {\"added\": {\"name\": \"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0433\\u0440\\u0430\\u0444\\u0438\\u043a\\u0430\", \"object\": \"\\u043f\\u043e\\u043c\\u0438\\u0434\\u043e\\u0440\\u044b - \\u0432\\u044b\\u043a\\u0430\\u0440\\u0447\\u0435\\u0432\\u044b\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0434\\u0435\\u043d\\u044c 50)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2025-11-30T09:37:50.599Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Теплица 2 (помидоры)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2025-12-02T09:24:05.600Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Теплица 2 (помидоры)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2025-12-02T09:24:05.600Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Теплица 1 (огурцы)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2025-12-02T09:28:18.221Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "23",
+      "object_repr": "Теплица GH-001 (Клубника)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 6,
+      "codename": "add_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 6,
+      "codename": "change_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 6,
+      "codename": "delete_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 6,
+      "codename": "view_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Посадка",
+      "content_type": 7,
+      "codename": "add_planting"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Посадка",
+      "content_type": 7,
+      "codename": "change_planting"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Посадка",
+      "content_type": 7,
+      "codename": "delete_planting"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Посадка",
+      "content_type": 7,
+      "codename": "view_planting"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Шаблон графика",
+      "content_type": 8,
+      "codename": "add_scheduletemplate"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Шаблон графика",
+      "content_type": 8,
+      "codename": "change_scheduletemplate"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Шаблон графика",
+      "content_type": 8,
+      "codename": "delete_scheduletemplate"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Шаблон графика",
+      "content_type": 8,
+      "codename": "view_scheduletemplate"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Вид работ",
+      "content_type": 9,
+      "codename": "add_worktype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Вид работ",
+      "content_type": 9,
+      "codename": "change_worktype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Вид работ",
+      "content_type": 9,
+      "codename": "delete_worktype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Вид работ",
+      "content_type": 9,
+      "codename": "view_worktype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Теплица",
+      "content_type": 10,
+      "codename": "add_greenhouse"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Теплица",
+      "content_type": 10,
+      "codename": "change_greenhouse"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Теплица",
+      "content_type": 10,
+      "codename": "delete_greenhouse"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Теплица",
+      "content_type": 10,
+      "codename": "view_greenhouse"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add График работ",
+      "content_type": 11,
+      "codename": "add_workschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change График работ",
+      "content_type": 11,
+      "codename": "change_workschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete График работ",
+      "content_type": 11,
+      "codename": "delete_workschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view График работ",
+      "content_type": 11,
+      "codename": "view_workschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add Затраты ресурсов",
+      "content_type": 12,
+      "codename": "add_resourceusage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change Затраты ресурсов",
+      "content_type": 12,
+      "codename": "change_resourceusage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete Затраты ресурсов",
+      "content_type": 12,
+      "codename": "delete_resourceusage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view Затраты ресурсов",
+      "content_type": 12,
+      "codename": "view_resourceusage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add Тип овощной культуры",
+      "content_type": 13,
+      "codename": "add_vegetabletype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change Тип овощной культуры",
+      "content_type": 13,
+      "codename": "change_vegetabletype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete Тип овощной культуры",
+      "content_type": 13,
+      "codename": "delete_vegetabletype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view Тип овощной культуры",
+      "content_type": 13,
+      "codename": "view_vegetabletype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add Урожай",
+      "content_type": 14,
+      "codename": "add_harvest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change Урожай",
+      "content_type": 14,
+      "codename": "change_harvest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete Урожай",
+      "content_type": 14,
+      "codename": "delete_harvest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view Урожай",
+      "content_type": 14,
+      "codename": "view_harvest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add kv store",
+      "content_type": 15,
+      "codename": "add_kvstore"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change kv store",
+      "content_type": 15,
+      "codename": "change_kvstore"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete kv store",
+      "content_type": 15,
+      "codename": "delete_kvstore"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view kv store",
+      "content_type": 15,
+      "codename": "view_kvstore"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "user",
+      "model": "customuser"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "greenhouse",
+      "model": "planting"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "greenhouse",
+      "model": "scheduletemplate"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "greenhouse",
+      "model": "worktype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "greenhouse",
+      "model": "greenhouse"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "greenhouse",
+      "model": "workschedule"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "greenhouse",
+      "model": "resourceusage"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "greenhouse",
+      "model": "vegetabletype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "greenhouse",
+      "model": "harvest"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "thumbnail",
+      "model": "kvstore"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ckwscck2iwhoofalctgfh8xzm91tjnnl",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hArTBlcuu8ZyDADUjU0Ke3KeHdD0oVu_3vvv1WgfSthb2kNs6irGtTpd4vEz1Q7kAfV-6J5qds6R90VfdCmp0XS63a4fweFWuk1JMOMmDJnGpCijF6AvHHgsh2tAZcgi_UXy46Mj-xYENEB5nhmrz5fDAI4lQ:1vPetl:gPyS8ElJhWZng0zgr4Rsqxgvq7PeCTshm3R5_wfVTZE",
+      "expire_date": "2025-12-14T10:43:21.780Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "hez14zcf31zwopppkabbl83p3pg2nj1v",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hArTBlcuu8ZyDADUjU0Ke3KeHdD0oVu_3vvv1WgfSthb2kNs6irGtTpd4vEz1Q7kAfV-6J5qds6R90VfdCmp0XS63a4fweFWuk1JMOMmDJnGpCijF6AvHHgsh2tAZcgi_UXy46Mj-xYENEB5nhmrz5fDAI4lQ:1vQMeE:0R3cgAtrROPmxH56USn4ppMFlUckZTB9LuP9c1uvQ3c",
+      "expire_date": "2025-12-16T09:26:14.221Z"
+    }
+  },
+  {
+    "model": "user.customuser",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$8BZiG0XJDOduFIGiHruV1G$OMrsxyiewwtS2Znl56q23O+EXKienVmA7Zihfb0j2Ac=",
+      "last_login": "2025-12-02T09:26:14.220Z",
+      "is_superuser": true,
+      "username": "artem",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-11-30T09:01:10.150Z",
+      "role": "viewer",
+      "phone": "",
+      "created_at": "2025-11-30T09:01:10.293Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "greenhouse.vegetabletype",
+    "pk": 11,
+    "fields": {
+      "name": "Томаты",
+      "description": "Помидоры черри и обычные"
+    }
+  },
+  {
+    "model": "greenhouse.vegetabletype",
+    "pk": 12,
+    "fields": {
+      "name": "Огурцы",
+      "description": "Гибридные сорта для теплиц"
+    }
+  },
+  {
+    "model": "greenhouse.vegetabletype",
+    "pk": 13,
+    "fields": {
+      "name": "Перец",
+      "description": "Сладкий болгарский перец"
+    }
+  },
+  {
+    "model": "greenhouse.vegetabletype",
+    "pk": 14,
+    "fields": {
+      "name": "Салат",
+      "description": "Листовые салаты"
+    }
+  },
+  {
+    "model": "greenhouse.vegetabletype",
+    "pk": 15,
+    "fields": {
+      "name": "Зелень",
+      "description": "Петрушка, укроп, базилик"
+    }
+  },
+  {
+    "model": "greenhouse.vegetabletype",
+    "pk": 16,
+    "fields": {
+      "name": "Клубника",
+      "description": "Ремонтантная клубника"
+    }
+  },
+  {
+    "model": "greenhouse.vegetabletype",
+    "pk": 17,
+    "fields": {
+      "name": "Баклажаны",
+      "description": "Синенькие"
+    }
+  },
+  {
+    "model": "greenhouse.vegetabletype",
+    "pk": 18,
+    "fields": {
+      "name": "Редис",
+      "description": "Ранние сорта"
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 23,
+    "fields": {
+      "number": "GH-001",
+      "vegetable_type": 16,
+      "area": "170.27",
+      "image": "greenhouses/sunset-over-rural-farm-green-growth-thrives-generated-by-ai-free-photo.jpg",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 24,
+    "fields": {
+      "number": "GH-002",
+      "vegetable_type": 13,
+      "area": "69.56",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 25,
+    "fields": {
+      "number": "GH-003",
+      "vegetable_type": 16,
+      "area": "166.73",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 26,
+    "fields": {
+      "number": "GH-004",
+      "vegetable_type": 17,
+      "area": "81.51",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 27,
+    "fields": {
+      "number": "GH-005",
+      "vegetable_type": 15,
+      "area": "57.28",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 28,
+    "fields": {
+      "number": "GH-006",
+      "vegetable_type": 12,
+      "area": "70.31",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 29,
+    "fields": {
+      "number": "GH-007",
+      "vegetable_type": 17,
+      "area": "92.85",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 30,
+    "fields": {
+      "number": "GH-008",
+      "vegetable_type": 12,
+      "area": "75.80",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 31,
+    "fields": {
+      "number": "GH-009",
+      "vegetable_type": 14,
+      "area": "84.34",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 32,
+    "fields": {
+      "number": "GH-010",
+      "vegetable_type": 13,
+      "area": "84.69",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 33,
+    "fields": {
+      "number": "GH-011",
+      "vegetable_type": 15,
+      "area": "129.46",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 34,
+    "fields": {
+      "number": "GH-012",
+      "vegetable_type": 17,
+      "area": "139.83",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 35,
+    "fields": {
+      "number": "GH-013",
+      "vegetable_type": 14,
+      "area": "146.87",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 36,
+    "fields": {
+      "number": "GH-014",
+      "vegetable_type": 12,
+      "area": "152.06",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 37,
+    "fields": {
+      "number": "GH-015",
+      "vegetable_type": 11,
+      "area": "166.18",
+      "image": "",
+      "is_active": false
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 38,
+    "fields": {
+      "number": "GH-016",
+      "vegetable_type": 12,
+      "area": "155.31",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 39,
+    "fields": {
+      "number": "GH-017",
+      "vegetable_type": 16,
+      "area": "145.37",
+      "image": "",
+      "is_active": false
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 40,
+    "fields": {
+      "number": "GH-018",
+      "vegetable_type": 18,
+      "area": "168.78",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 41,
+    "fields": {
+      "number": "GH-019",
+      "vegetable_type": 12,
+      "area": "180.42",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.greenhouse",
+    "pk": 42,
+    "fields": {
+      "number": "GH-020",
+      "vegetable_type": 15,
+      "area": "67.61",
+      "image": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "greenhouse.worktype",
+    "pk": 12,
+    "fields": {
+      "name": "Подготовка почвы",
+      "description": "Вспашка, удобрение"
+    }
+  },
+  {
+    "model": "greenhouse.worktype",
+    "pk": 13,
+    "fields": {
+      "name": "Посев семян",
+      "description": "Посадка семян"
+    }
+  },
+  {
+    "model": "greenhouse.worktype",
+    "pk": 14,
+    "fields": {
+      "name": "Полив",
+      "description": "Капельный полив"
+    }
+  },
+  {
+    "model": "greenhouse.worktype",
+    "pk": 15,
+    "fields": {
+      "name": "Подкормка",
+      "description": "Внесение удобрений"
+    }
+  },
+  {
+    "model": "greenhouse.worktype",
+    "pk": 16,
+    "fields": {
+      "name": "Прополка",
+      "description": "Удаление сорняков"
+    }
+  },
+  {
+    "model": "greenhouse.worktype",
+    "pk": 17,
+    "fields": {
+      "name": "Обработка от вредителей",
+      "description": "Биологическая защита"
+    }
+  },
+  {
+    "model": "greenhouse.worktype",
+    "pk": 18,
+    "fields": {
+      "name": "Обрезка",
+      "description": "Формирование куста"
+    }
+  },
+  {
+    "model": "greenhouse.worktype",
+    "pk": 19,
+    "fields": {
+      "name": "Сбор урожая",
+      "description": "Ручной сбор"
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 75,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 12,
+      "days_after_planting": 0,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 76,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 13,
+      "days_after_planting": 1,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 77,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 14,
+      "days_after_planting": 7,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 78,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 15,
+      "days_after_planting": 14,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 79,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 14,
+      "days_after_planting": 21,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 80,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 17,
+      "days_after_planting": 28,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 81,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 18,
+      "days_after_planting": 35,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 82,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 15,
+      "days_after_planting": 42,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 83,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 14,
+      "days_after_planting": 49,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 84,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 17,
+      "days_after_planting": 56,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 85,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 18,
+      "days_after_planting": 63,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 86,
+    "fields": {
+      "vegetable_type": 11,
+      "work_type": 19,
+      "days_after_planting": 70,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 87,
+    "fields": {
+      "vegetable_type": 12,
+      "work_type": 12,
+      "days_after_planting": 0,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 88,
+    "fields": {
+      "vegetable_type": 12,
+      "work_type": 13,
+      "days_after_planting": 1,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 89,
+    "fields": {
+      "vegetable_type": 12,
+      "work_type": 14,
+      "days_after_planting": 5,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 90,
+    "fields": {
+      "vegetable_type": 12,
+      "work_type": 15,
+      "days_after_planting": 10,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 91,
+    "fields": {
+      "vegetable_type": 12,
+      "work_type": 14,
+      "days_after_planting": 15,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 92,
+    "fields": {
+      "vegetable_type": 12,
+      "work_type": 17,
+      "days_after_planting": 20,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 93,
+    "fields": {
+      "vegetable_type": 12,
+      "work_type": 15,
+      "days_after_planting": 25,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 94,
+    "fields": {
+      "vegetable_type": 12,
+      "work_type": 14,
+      "days_after_planting": 30,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 95,
+    "fields": {
+      "vegetable_type": 12,
+      "work_type": 19,
+      "days_after_planting": 35,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 96,
+    "fields": {
+      "vegetable_type": 13,
+      "work_type": 12,
+      "days_after_planting": 0,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 97,
+    "fields": {
+      "vegetable_type": 13,
+      "work_type": 13,
+      "days_after_planting": 1,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 98,
+    "fields": {
+      "vegetable_type": 13,
+      "work_type": 14,
+      "days_after_planting": 10,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 99,
+    "fields": {
+      "vegetable_type": 13,
+      "work_type": 15,
+      "days_after_planting": 20,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 100,
+    "fields": {
+      "vegetable_type": 13,
+      "work_type": 14,
+      "days_after_planting": 30,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 101,
+    "fields": {
+      "vegetable_type": 13,
+      "work_type": 19,
+      "days_after_planting": 40,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 102,
+    "fields": {
+      "vegetable_type": 14,
+      "work_type": 12,
+      "days_after_planting": 0,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 103,
+    "fields": {
+      "vegetable_type": 14,
+      "work_type": 13,
+      "days_after_planting": 1,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 104,
+    "fields": {
+      "vegetable_type": 14,
+      "work_type": 14,
+      "days_after_planting": 10,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 105,
+    "fields": {
+      "vegetable_type": 14,
+      "work_type": 15,
+      "days_after_planting": 20,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 106,
+    "fields": {
+      "vegetable_type": 14,
+      "work_type": 14,
+      "days_after_planting": 30,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 107,
+    "fields": {
+      "vegetable_type": 14,
+      "work_type": 19,
+      "days_after_planting": 40,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 108,
+    "fields": {
+      "vegetable_type": 15,
+      "work_type": 12,
+      "days_after_planting": 0,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 109,
+    "fields": {
+      "vegetable_type": 15,
+      "work_type": 13,
+      "days_after_planting": 1,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 110,
+    "fields": {
+      "vegetable_type": 15,
+      "work_type": 14,
+      "days_after_planting": 10,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 111,
+    "fields": {
+      "vegetable_type": 15,
+      "work_type": 15,
+      "days_after_planting": 20,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 112,
+    "fields": {
+      "vegetable_type": 15,
+      "work_type": 14,
+      "days_after_planting": 30,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 113,
+    "fields": {
+      "vegetable_type": 15,
+      "work_type": 19,
+      "days_after_planting": 40,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 114,
+    "fields": {
+      "vegetable_type": 16,
+      "work_type": 12,
+      "days_after_planting": 0,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 115,
+    "fields": {
+      "vegetable_type": 16,
+      "work_type": 13,
+      "days_after_planting": 1,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 116,
+    "fields": {
+      "vegetable_type": 16,
+      "work_type": 14,
+      "days_after_planting": 10,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 117,
+    "fields": {
+      "vegetable_type": 16,
+      "work_type": 15,
+      "days_after_planting": 20,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 118,
+    "fields": {
+      "vegetable_type": 16,
+      "work_type": 14,
+      "days_after_planting": 30,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 119,
+    "fields": {
+      "vegetable_type": 16,
+      "work_type": 19,
+      "days_after_planting": 40,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 120,
+    "fields": {
+      "vegetable_type": 17,
+      "work_type": 12,
+      "days_after_planting": 0,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 121,
+    "fields": {
+      "vegetable_type": 17,
+      "work_type": 13,
+      "days_after_planting": 1,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 122,
+    "fields": {
+      "vegetable_type": 17,
+      "work_type": 14,
+      "days_after_planting": 10,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 123,
+    "fields": {
+      "vegetable_type": 17,
+      "work_type": 15,
+      "days_after_planting": 20,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 124,
+    "fields": {
+      "vegetable_type": 17,
+      "work_type": 14,
+      "days_after_planting": 30,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 125,
+    "fields": {
+      "vegetable_type": 17,
+      "work_type": 19,
+      "days_after_planting": 40,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 126,
+    "fields": {
+      "vegetable_type": 18,
+      "work_type": 12,
+      "days_after_planting": 0,
+      "duration_days": 1
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 127,
+    "fields": {
+      "vegetable_type": 18,
+      "work_type": 13,
+      "days_after_planting": 1,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 128,
+    "fields": {
+      "vegetable_type": 18,
+      "work_type": 14,
+      "days_after_planting": 10,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 129,
+    "fields": {
+      "vegetable_type": 18,
+      "work_type": 15,
+      "days_after_planting": 20,
+      "duration_days": 3
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 130,
+    "fields": {
+      "vegetable_type": 18,
+      "work_type": 14,
+      "days_after_planting": 30,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.scheduletemplate",
+    "pk": 131,
+    "fields": {
+      "vegetable_type": 18,
+      "work_type": 19,
+      "days_after_planting": 40,
+      "duration_days": 2
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 30,
+    "fields": {
+      "greenhouse": 23,
+      "vegetable_type": 17,
+      "planting_date": "2025-10-17",
+      "planned_harvest_date": "2025-12-14",
+      "actual_harvest_date": null,
+      "status": "planted"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 31,
+    "fields": {
+      "greenhouse": 24,
+      "vegetable_type": 17,
+      "planting_date": "2025-11-16",
+      "planned_harvest_date": "2026-01-12",
+      "actual_harvest_date": null,
+      "status": "growing"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 32,
+    "fields": {
+      "greenhouse": 25,
+      "vegetable_type": 14,
+      "planting_date": "2025-08-05",
+      "planned_harvest_date": "2025-09-28",
+      "actual_harvest_date": "2025-09-28",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 33,
+    "fields": {
+      "greenhouse": 26,
+      "vegetable_type": 14,
+      "planting_date": "2025-11-09",
+      "planned_harvest_date": "2026-01-03",
+      "actual_harvest_date": null,
+      "status": "growing"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 34,
+    "fields": {
+      "greenhouse": 27,
+      "vegetable_type": 16,
+      "planting_date": "2025-08-23",
+      "planned_harvest_date": "2025-10-06",
+      "actual_harvest_date": "2025-10-06",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 35,
+    "fields": {
+      "greenhouse": 28,
+      "vegetable_type": 17,
+      "planting_date": "2025-08-13",
+      "planned_harvest_date": "2025-10-01",
+      "actual_harvest_date": "2025-10-01",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 36,
+    "fields": {
+      "greenhouse": 28,
+      "vegetable_type": 15,
+      "planting_date": "2025-11-27",
+      "planned_harvest_date": "2026-01-07",
+      "actual_harvest_date": null,
+      "status": "planted"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 37,
+    "fields": {
+      "greenhouse": 28,
+      "vegetable_type": 17,
+      "planting_date": "2025-10-26",
+      "planned_harvest_date": "2025-12-24",
+      "actual_harvest_date": null,
+      "status": "planted"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 38,
+    "fields": {
+      "greenhouse": 29,
+      "vegetable_type": 16,
+      "planting_date": "2025-10-06",
+      "planned_harvest_date": "2025-11-24",
+      "actual_harvest_date": "2025-11-24",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 39,
+    "fields": {
+      "greenhouse": 30,
+      "vegetable_type": 12,
+      "planting_date": "2025-09-23",
+      "planned_harvest_date": "2025-10-28",
+      "actual_harvest_date": "2025-10-28",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 40,
+    "fields": {
+      "greenhouse": 31,
+      "vegetable_type": 15,
+      "planting_date": "2025-11-21",
+      "planned_harvest_date": "2026-01-09",
+      "actual_harvest_date": null,
+      "status": "growing"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 41,
+    "fields": {
+      "greenhouse": 32,
+      "vegetable_type": 18,
+      "planting_date": "2025-11-13",
+      "planned_harvest_date": "2025-12-08",
+      "actual_harvest_date": null,
+      "status": "growing"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 42,
+    "fields": {
+      "greenhouse": 33,
+      "vegetable_type": 11,
+      "planting_date": "2025-08-25",
+      "planned_harvest_date": "2025-11-03",
+      "actual_harvest_date": "2025-11-03",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 43,
+    "fields": {
+      "greenhouse": 33,
+      "vegetable_type": 14,
+      "planting_date": "2025-11-07",
+      "planned_harvest_date": "2025-12-25",
+      "actual_harvest_date": null,
+      "status": "growing"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 44,
+    "fields": {
+      "greenhouse": 33,
+      "vegetable_type": 17,
+      "planting_date": "2025-08-20",
+      "planned_harvest_date": "2025-10-06",
+      "actual_harvest_date": "2025-10-06",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 45,
+    "fields": {
+      "greenhouse": 34,
+      "vegetable_type": 14,
+      "planting_date": "2025-08-28",
+      "planned_harvest_date": "2025-10-07",
+      "actual_harvest_date": "2025-10-07",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 46,
+    "fields": {
+      "greenhouse": 35,
+      "vegetable_type": 15,
+      "planting_date": "2025-08-14",
+      "planned_harvest_date": "2025-09-26",
+      "actual_harvest_date": "2025-09-26",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 47,
+    "fields": {
+      "greenhouse": 35,
+      "vegetable_type": 14,
+      "planting_date": "2025-11-06",
+      "planned_harvest_date": "2025-12-26",
+      "actual_harvest_date": null,
+      "status": "planted"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 48,
+    "fields": {
+      "greenhouse": 36,
+      "vegetable_type": 12,
+      "planting_date": "2025-10-05",
+      "planned_harvest_date": "2025-11-09",
+      "actual_harvest_date": "2025-11-09",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 49,
+    "fields": {
+      "greenhouse": 36,
+      "vegetable_type": 11,
+      "planting_date": "2025-11-26",
+      "planned_harvest_date": "2026-02-04",
+      "actual_harvest_date": null,
+      "status": "planted"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 50,
+    "fields": {
+      "greenhouse": 36,
+      "vegetable_type": 18,
+      "planting_date": "2025-10-02",
+      "planned_harvest_date": "2025-10-27",
+      "actual_harvest_date": "2025-10-27",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 51,
+    "fields": {
+      "greenhouse": 38,
+      "vegetable_type": 17,
+      "planting_date": "2025-09-22",
+      "planned_harvest_date": "2025-11-17",
+      "actual_harvest_date": "2025-11-17",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 52,
+    "fields": {
+      "greenhouse": 38,
+      "vegetable_type": 17,
+      "planting_date": "2025-09-24",
+      "planned_harvest_date": "2025-11-21",
+      "actual_harvest_date": "2025-11-21",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 53,
+    "fields": {
+      "greenhouse": 40,
+      "vegetable_type": 14,
+      "planting_date": "2025-11-27",
+      "planned_harvest_date": "2026-01-22",
+      "actual_harvest_date": null,
+      "status": "growing"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 54,
+    "fields": {
+      "greenhouse": 40,
+      "vegetable_type": 12,
+      "planting_date": "2025-11-24",
+      "planned_harvest_date": "2025-12-29",
+      "actual_harvest_date": null,
+      "status": "growing"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 55,
+    "fields": {
+      "greenhouse": 41,
+      "vegetable_type": 12,
+      "planting_date": "2025-09-14",
+      "planned_harvest_date": "2025-10-19",
+      "actual_harvest_date": "2025-10-19",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 56,
+    "fields": {
+      "greenhouse": 41,
+      "vegetable_type": 18,
+      "planting_date": "2025-09-04",
+      "planned_harvest_date": "2025-09-29",
+      "actual_harvest_date": "2025-09-29",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 57,
+    "fields": {
+      "greenhouse": 42,
+      "vegetable_type": 13,
+      "planting_date": "2025-08-23",
+      "planned_harvest_date": "2025-10-12",
+      "actual_harvest_date": "2025-10-12",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.planting",
+    "pk": 58,
+    "fields": {
+      "greenhouse": 42,
+      "vegetable_type": 16,
+      "planting_date": "2025-09-07",
+      "planned_harvest_date": "2025-10-21",
+      "actual_harvest_date": "2025-10-21",
+      "status": "harvested"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 240,
+    "fields": {
+      "planting": 30,
+      "work_type": 12,
+      "planned_date": "2025-10-17",
+      "actual_date": "2025-10-19",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 241,
+    "fields": {
+      "planting": 30,
+      "work_type": 13,
+      "planned_date": "2025-10-18",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 242,
+    "fields": {
+      "planting": 30,
+      "work_type": 14,
+      "planned_date": "2025-10-27",
+      "actual_date": "2025-10-28",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 243,
+    "fields": {
+      "planting": 30,
+      "work_type": 15,
+      "planned_date": "2025-11-06",
+      "actual_date": "2025-11-08",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 244,
+    "fields": {
+      "planting": 30,
+      "work_type": 14,
+      "planned_date": "2025-11-16",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 245,
+    "fields": {
+      "planting": 30,
+      "work_type": 19,
+      "planned_date": "2025-11-26",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 246,
+    "fields": {
+      "planting": 31,
+      "work_type": 12,
+      "planned_date": "2025-11-16",
+      "actual_date": "2025-11-17",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 247,
+    "fields": {
+      "planting": 31,
+      "work_type": 13,
+      "planned_date": "2025-11-17",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 248,
+    "fields": {
+      "planting": 31,
+      "work_type": 14,
+      "planned_date": "2025-11-26",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 249,
+    "fields": {
+      "planting": 31,
+      "work_type": 15,
+      "planned_date": "2025-12-06",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 250,
+    "fields": {
+      "planting": 31,
+      "work_type": 14,
+      "planned_date": "2025-12-16",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 251,
+    "fields": {
+      "planting": 31,
+      "work_type": 19,
+      "planned_date": "2025-12-26",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 252,
+    "fields": {
+      "planting": 32,
+      "work_type": 12,
+      "planned_date": "2025-08-05",
+      "actual_date": "2025-08-07",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 253,
+    "fields": {
+      "planting": 32,
+      "work_type": 13,
+      "planned_date": "2025-08-06",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 254,
+    "fields": {
+      "planting": 32,
+      "work_type": 14,
+      "planned_date": "2025-08-15",
+      "actual_date": "2025-08-15",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 255,
+    "fields": {
+      "planting": 32,
+      "work_type": 15,
+      "planned_date": "2025-08-25",
+      "actual_date": "2025-08-26",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 256,
+    "fields": {
+      "planting": 32,
+      "work_type": 14,
+      "planned_date": "2025-09-04",
+      "actual_date": "2025-09-04",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 257,
+    "fields": {
+      "planting": 32,
+      "work_type": 19,
+      "planned_date": "2025-09-14",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 258,
+    "fields": {
+      "planting": 33,
+      "work_type": 12,
+      "planned_date": "2025-11-09",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 259,
+    "fields": {
+      "planting": 33,
+      "work_type": 13,
+      "planned_date": "2025-11-10",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 260,
+    "fields": {
+      "planting": 33,
+      "work_type": 14,
+      "planned_date": "2025-11-19",
+      "actual_date": "2025-11-19",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 261,
+    "fields": {
+      "planting": 33,
+      "work_type": 15,
+      "planned_date": "2025-11-29",
+      "actual_date": "2025-11-29",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 262,
+    "fields": {
+      "planting": 33,
+      "work_type": 14,
+      "planned_date": "2025-12-09",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 263,
+    "fields": {
+      "planting": 33,
+      "work_type": 19,
+      "planned_date": "2025-12-19",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 264,
+    "fields": {
+      "planting": 34,
+      "work_type": 12,
+      "planned_date": "2025-08-23",
+      "actual_date": "2025-08-24",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 265,
+    "fields": {
+      "planting": 34,
+      "work_type": 13,
+      "planned_date": "2025-08-24",
+      "actual_date": "2025-08-24",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 266,
+    "fields": {
+      "planting": 34,
+      "work_type": 14,
+      "planned_date": "2025-09-02",
+      "actual_date": "2025-09-02",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 267,
+    "fields": {
+      "planting": 34,
+      "work_type": 15,
+      "planned_date": "2025-09-12",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 268,
+    "fields": {
+      "planting": 34,
+      "work_type": 14,
+      "planned_date": "2025-09-22",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 269,
+    "fields": {
+      "planting": 34,
+      "work_type": 19,
+      "planned_date": "2025-10-02",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 270,
+    "fields": {
+      "planting": 35,
+      "work_type": 12,
+      "planned_date": "2025-08-13",
+      "actual_date": "2025-08-14",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 271,
+    "fields": {
+      "planting": 35,
+      "work_type": 13,
+      "planned_date": "2025-08-14",
+      "actual_date": "2025-12-02",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 272,
+    "fields": {
+      "planting": 35,
+      "work_type": 14,
+      "planned_date": "2025-08-23",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 273,
+    "fields": {
+      "planting": 35,
+      "work_type": 15,
+      "planned_date": "2025-09-02",
+      "actual_date": "2025-09-02",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 274,
+    "fields": {
+      "planting": 35,
+      "work_type": 14,
+      "planned_date": "2025-09-12",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 275,
+    "fields": {
+      "planting": 35,
+      "work_type": 19,
+      "planned_date": "2025-09-22",
+      "actual_date": "2025-09-22",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 276,
+    "fields": {
+      "planting": 36,
+      "work_type": 12,
+      "planned_date": "2025-11-27",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 277,
+    "fields": {
+      "planting": 36,
+      "work_type": 13,
+      "planned_date": "2025-11-28",
+      "actual_date": "2025-11-30",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 278,
+    "fields": {
+      "planting": 36,
+      "work_type": 14,
+      "planned_date": "2025-12-07",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 279,
+    "fields": {
+      "planting": 36,
+      "work_type": 15,
+      "planned_date": "2025-12-17",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 280,
+    "fields": {
+      "planting": 36,
+      "work_type": 14,
+      "planned_date": "2025-12-27",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 281,
+    "fields": {
+      "planting": 36,
+      "work_type": 19,
+      "planned_date": "2026-01-06",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 282,
+    "fields": {
+      "planting": 37,
+      "work_type": 12,
+      "planned_date": "2025-10-26",
+      "actual_date": "2025-10-27",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 283,
+    "fields": {
+      "planting": 37,
+      "work_type": 13,
+      "planned_date": "2025-10-27",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 284,
+    "fields": {
+      "planting": 37,
+      "work_type": 14,
+      "planned_date": "2025-11-05",
+      "actual_date": "2025-11-07",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 285,
+    "fields": {
+      "planting": 37,
+      "work_type": 15,
+      "planned_date": "2025-11-15",
+      "actual_date": "2025-11-16",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 286,
+    "fields": {
+      "planting": 37,
+      "work_type": 14,
+      "planned_date": "2025-11-25",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 287,
+    "fields": {
+      "planting": 37,
+      "work_type": 19,
+      "planned_date": "2025-12-05",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 288,
+    "fields": {
+      "planting": 38,
+      "work_type": 12,
+      "planned_date": "2025-10-06",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 289,
+    "fields": {
+      "planting": 38,
+      "work_type": 13,
+      "planned_date": "2025-10-07",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 290,
+    "fields": {
+      "planting": 38,
+      "work_type": 14,
+      "planned_date": "2025-10-16",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 291,
+    "fields": {
+      "planting": 38,
+      "work_type": 15,
+      "planned_date": "2025-10-26",
+      "actual_date": "2025-10-28",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 292,
+    "fields": {
+      "planting": 38,
+      "work_type": 14,
+      "planned_date": "2025-11-05",
+      "actual_date": "2025-11-07",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 293,
+    "fields": {
+      "planting": 38,
+      "work_type": 19,
+      "planned_date": "2025-11-15",
+      "actual_date": "2025-11-15",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 294,
+    "fields": {
+      "planting": 39,
+      "work_type": 12,
+      "planned_date": "2025-09-23",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 295,
+    "fields": {
+      "planting": 39,
+      "work_type": 13,
+      "planned_date": "2025-09-24",
+      "actual_date": "2025-09-26",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 296,
+    "fields": {
+      "planting": 39,
+      "work_type": 14,
+      "planned_date": "2025-09-28",
+      "actual_date": "2025-09-29",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 297,
+    "fields": {
+      "planting": 39,
+      "work_type": 15,
+      "planned_date": "2025-10-03",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 298,
+    "fields": {
+      "planting": 39,
+      "work_type": 14,
+      "planned_date": "2025-10-08",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 299,
+    "fields": {
+      "planting": 39,
+      "work_type": 17,
+      "planned_date": "2025-10-13",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 300,
+    "fields": {
+      "planting": 39,
+      "work_type": 15,
+      "planned_date": "2025-10-18",
+      "actual_date": "2025-10-20",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 301,
+    "fields": {
+      "planting": 39,
+      "work_type": 14,
+      "planned_date": "2025-10-23",
+      "actual_date": "2025-10-25",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 302,
+    "fields": {
+      "planting": 39,
+      "work_type": 19,
+      "planned_date": "2025-10-28",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 303,
+    "fields": {
+      "planting": 40,
+      "work_type": 12,
+      "planned_date": "2025-11-21",
+      "actual_date": "2025-11-21",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 304,
+    "fields": {
+      "planting": 40,
+      "work_type": 13,
+      "planned_date": "2025-11-22",
+      "actual_date": "2025-11-22",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 305,
+    "fields": {
+      "planting": 40,
+      "work_type": 14,
+      "planned_date": "2025-12-01",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 306,
+    "fields": {
+      "planting": 40,
+      "work_type": 15,
+      "planned_date": "2025-12-11",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 307,
+    "fields": {
+      "planting": 40,
+      "work_type": 14,
+      "planned_date": "2025-12-21",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 308,
+    "fields": {
+      "planting": 40,
+      "work_type": 19,
+      "planned_date": "2025-12-31",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 309,
+    "fields": {
+      "planting": 41,
+      "work_type": 12,
+      "planned_date": "2025-11-13",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 310,
+    "fields": {
+      "planting": 41,
+      "work_type": 13,
+      "planned_date": "2025-11-14",
+      "actual_date": "2025-11-14",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 311,
+    "fields": {
+      "planting": 41,
+      "work_type": 14,
+      "planned_date": "2025-11-23",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 312,
+    "fields": {
+      "planting": 41,
+      "work_type": 15,
+      "planned_date": "2025-12-03",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 313,
+    "fields": {
+      "planting": 41,
+      "work_type": 14,
+      "planned_date": "2025-12-13",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 314,
+    "fields": {
+      "planting": 41,
+      "work_type": 19,
+      "planned_date": "2025-12-23",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 315,
+    "fields": {
+      "planting": 42,
+      "work_type": 12,
+      "planned_date": "2025-08-25",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 316,
+    "fields": {
+      "planting": 42,
+      "work_type": 13,
+      "planned_date": "2025-08-26",
+      "actual_date": "2025-08-26",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 317,
+    "fields": {
+      "planting": 42,
+      "work_type": 14,
+      "planned_date": "2025-09-01",
+      "actual_date": "2025-09-03",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 318,
+    "fields": {
+      "planting": 42,
+      "work_type": 15,
+      "planned_date": "2025-09-08",
+      "actual_date": "2025-09-10",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 319,
+    "fields": {
+      "planting": 42,
+      "work_type": 14,
+      "planned_date": "2025-09-15",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 320,
+    "fields": {
+      "planting": 42,
+      "work_type": 17,
+      "planned_date": "2025-09-22",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 321,
+    "fields": {
+      "planting": 42,
+      "work_type": 18,
+      "planned_date": "2025-09-29",
+      "actual_date": "2025-10-01",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 322,
+    "fields": {
+      "planting": 42,
+      "work_type": 15,
+      "planned_date": "2025-10-06",
+      "actual_date": "2025-10-06",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 323,
+    "fields": {
+      "planting": 42,
+      "work_type": 14,
+      "planned_date": "2025-10-13",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 324,
+    "fields": {
+      "planting": 42,
+      "work_type": 17,
+      "planned_date": "2025-10-20",
+      "actual_date": "2025-10-20",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 325,
+    "fields": {
+      "planting": 42,
+      "work_type": 18,
+      "planned_date": "2025-10-27",
+      "actual_date": "2025-10-29",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 326,
+    "fields": {
+      "planting": 42,
+      "work_type": 19,
+      "planned_date": "2025-11-03",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 327,
+    "fields": {
+      "planting": 43,
+      "work_type": 12,
+      "planned_date": "2025-11-07",
+      "actual_date": "2025-11-08",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 328,
+    "fields": {
+      "planting": 43,
+      "work_type": 13,
+      "planned_date": "2025-11-08",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 329,
+    "fields": {
+      "planting": 43,
+      "work_type": 14,
+      "planned_date": "2025-11-17",
+      "actual_date": "2025-11-18",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 330,
+    "fields": {
+      "planting": 43,
+      "work_type": 15,
+      "planned_date": "2025-11-27",
+      "actual_date": "2025-11-27",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 331,
+    "fields": {
+      "planting": 43,
+      "work_type": 14,
+      "planned_date": "2025-12-07",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 332,
+    "fields": {
+      "planting": 43,
+      "work_type": 19,
+      "planned_date": "2025-12-17",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 333,
+    "fields": {
+      "planting": 44,
+      "work_type": 12,
+      "planned_date": "2025-08-20",
+      "actual_date": "2025-08-21",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 334,
+    "fields": {
+      "planting": 44,
+      "work_type": 13,
+      "planned_date": "2025-08-21",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 335,
+    "fields": {
+      "planting": 44,
+      "work_type": 14,
+      "planned_date": "2025-08-30",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 336,
+    "fields": {
+      "planting": 44,
+      "work_type": 15,
+      "planned_date": "2025-09-09",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 337,
+    "fields": {
+      "planting": 44,
+      "work_type": 14,
+      "planned_date": "2025-09-19",
+      "actual_date": "2025-09-21",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 338,
+    "fields": {
+      "planting": 44,
+      "work_type": 19,
+      "planned_date": "2025-09-29",
+      "actual_date": "2025-09-29",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 339,
+    "fields": {
+      "planting": 45,
+      "work_type": 12,
+      "planned_date": "2025-08-28",
+      "actual_date": "2025-08-29",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 340,
+    "fields": {
+      "planting": 45,
+      "work_type": 13,
+      "planned_date": "2025-08-29",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 341,
+    "fields": {
+      "planting": 45,
+      "work_type": 14,
+      "planned_date": "2025-09-07",
+      "actual_date": "2025-09-09",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 342,
+    "fields": {
+      "planting": 45,
+      "work_type": 15,
+      "planned_date": "2025-09-17",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 343,
+    "fields": {
+      "planting": 45,
+      "work_type": 14,
+      "planned_date": "2025-09-27",
+      "actual_date": "2025-09-29",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 344,
+    "fields": {
+      "planting": 45,
+      "work_type": 19,
+      "planned_date": "2025-10-07",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 345,
+    "fields": {
+      "planting": 46,
+      "work_type": 12,
+      "planned_date": "2025-08-14",
+      "actual_date": "2025-08-14",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 346,
+    "fields": {
+      "planting": 46,
+      "work_type": 13,
+      "planned_date": "2025-08-15",
+      "actual_date": "2025-08-17",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 347,
+    "fields": {
+      "planting": 46,
+      "work_type": 14,
+      "planned_date": "2025-08-24",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 348,
+    "fields": {
+      "planting": 46,
+      "work_type": 15,
+      "planned_date": "2025-09-03",
+      "actual_date": "2025-09-04",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 349,
+    "fields": {
+      "planting": 46,
+      "work_type": 14,
+      "planned_date": "2025-09-13",
+      "actual_date": "2025-09-14",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 350,
+    "fields": {
+      "planting": 46,
+      "work_type": 19,
+      "planned_date": "2025-09-23",
+      "actual_date": "2025-09-25",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 351,
+    "fields": {
+      "planting": 47,
+      "work_type": 12,
+      "planned_date": "2025-11-06",
+      "actual_date": "2025-11-08",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 352,
+    "fields": {
+      "planting": 47,
+      "work_type": 13,
+      "planned_date": "2025-11-07",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 353,
+    "fields": {
+      "planting": 47,
+      "work_type": 14,
+      "planned_date": "2025-11-16",
+      "actual_date": "2025-11-16",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 354,
+    "fields": {
+      "planting": 47,
+      "work_type": 15,
+      "planned_date": "2025-11-26",
+      "actual_date": "2025-11-28",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 355,
+    "fields": {
+      "planting": 47,
+      "work_type": 14,
+      "planned_date": "2025-12-06",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 356,
+    "fields": {
+      "planting": 47,
+      "work_type": 19,
+      "planned_date": "2025-12-16",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 357,
+    "fields": {
+      "planting": 48,
+      "work_type": 12,
+      "planned_date": "2025-10-05",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 358,
+    "fields": {
+      "planting": 48,
+      "work_type": 13,
+      "planned_date": "2025-10-06",
+      "actual_date": "2025-10-06",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 359,
+    "fields": {
+      "planting": 48,
+      "work_type": 14,
+      "planned_date": "2025-10-10",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 360,
+    "fields": {
+      "planting": 48,
+      "work_type": 15,
+      "planned_date": "2025-10-15",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 361,
+    "fields": {
+      "planting": 48,
+      "work_type": 14,
+      "planned_date": "2025-10-20",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 362,
+    "fields": {
+      "planting": 48,
+      "work_type": 17,
+      "planned_date": "2025-10-25",
+      "actual_date": "2025-10-27",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 363,
+    "fields": {
+      "planting": 48,
+      "work_type": 15,
+      "planned_date": "2025-10-30",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 364,
+    "fields": {
+      "planting": 48,
+      "work_type": 14,
+      "planned_date": "2025-11-04",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 365,
+    "fields": {
+      "planting": 48,
+      "work_type": 19,
+      "planned_date": "2025-11-09",
+      "actual_date": "2025-11-10",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 366,
+    "fields": {
+      "planting": 49,
+      "work_type": 12,
+      "planned_date": "2025-11-26",
+      "actual_date": "2025-11-28",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 367,
+    "fields": {
+      "planting": 49,
+      "work_type": 13,
+      "planned_date": "2025-11-27",
+      "actual_date": "2025-11-29",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 368,
+    "fields": {
+      "planting": 49,
+      "work_type": 14,
+      "planned_date": "2025-12-03",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 369,
+    "fields": {
+      "planting": 49,
+      "work_type": 15,
+      "planned_date": "2025-12-10",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 370,
+    "fields": {
+      "planting": 49,
+      "work_type": 14,
+      "planned_date": "2025-12-17",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 371,
+    "fields": {
+      "planting": 49,
+      "work_type": 17,
+      "planned_date": "2025-12-24",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 372,
+    "fields": {
+      "planting": 49,
+      "work_type": 18,
+      "planned_date": "2025-12-31",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 373,
+    "fields": {
+      "planting": 49,
+      "work_type": 15,
+      "planned_date": "2026-01-07",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 374,
+    "fields": {
+      "planting": 49,
+      "work_type": 14,
+      "planned_date": "2026-01-14",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 375,
+    "fields": {
+      "planting": 49,
+      "work_type": 17,
+      "planned_date": "2026-01-21",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 376,
+    "fields": {
+      "planting": 49,
+      "work_type": 18,
+      "planned_date": "2026-01-28",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 377,
+    "fields": {
+      "planting": 49,
+      "work_type": 19,
+      "planned_date": "2026-02-04",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 378,
+    "fields": {
+      "planting": 50,
+      "work_type": 12,
+      "planned_date": "2025-10-02",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 379,
+    "fields": {
+      "planting": 50,
+      "work_type": 13,
+      "planned_date": "2025-10-03",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 380,
+    "fields": {
+      "planting": 50,
+      "work_type": 14,
+      "planned_date": "2025-10-12",
+      "actual_date": "2025-10-12",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 381,
+    "fields": {
+      "planting": 50,
+      "work_type": 15,
+      "planned_date": "2025-10-22",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 382,
+    "fields": {
+      "planting": 50,
+      "work_type": 14,
+      "planned_date": "2025-11-01",
+      "actual_date": "2025-11-02",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 383,
+    "fields": {
+      "planting": 50,
+      "work_type": 19,
+      "planned_date": "2025-11-11",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 384,
+    "fields": {
+      "planting": 51,
+      "work_type": 12,
+      "planned_date": "2025-09-22",
+      "actual_date": "2025-09-22",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 385,
+    "fields": {
+      "planting": 51,
+      "work_type": 13,
+      "planned_date": "2025-09-23",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 386,
+    "fields": {
+      "planting": 51,
+      "work_type": 14,
+      "planned_date": "2025-10-02",
+      "actual_date": "2025-10-02",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 387,
+    "fields": {
+      "planting": 51,
+      "work_type": 15,
+      "planned_date": "2025-10-12",
+      "actual_date": "2025-10-12",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 388,
+    "fields": {
+      "planting": 51,
+      "work_type": 14,
+      "planned_date": "2025-10-22",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 389,
+    "fields": {
+      "planting": 51,
+      "work_type": 19,
+      "planned_date": "2025-11-01",
+      "actual_date": "2025-11-03",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 390,
+    "fields": {
+      "planting": 52,
+      "work_type": 12,
+      "planned_date": "2025-09-24",
+      "actual_date": "2025-09-25",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 391,
+    "fields": {
+      "planting": 52,
+      "work_type": 13,
+      "planned_date": "2025-09-25",
+      "actual_date": "2025-09-26",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 392,
+    "fields": {
+      "planting": 52,
+      "work_type": 14,
+      "planned_date": "2025-10-04",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 393,
+    "fields": {
+      "planting": 52,
+      "work_type": 15,
+      "planned_date": "2025-10-14",
+      "actual_date": "2025-10-15",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 394,
+    "fields": {
+      "planting": 52,
+      "work_type": 14,
+      "planned_date": "2025-10-24",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 395,
+    "fields": {
+      "planting": 52,
+      "work_type": 19,
+      "planned_date": "2025-11-03",
+      "actual_date": "2025-11-04",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 396,
+    "fields": {
+      "planting": 53,
+      "work_type": 12,
+      "planned_date": "2025-11-27",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 397,
+    "fields": {
+      "planting": 53,
+      "work_type": 13,
+      "planned_date": "2025-11-28",
+      "actual_date": "2025-11-28",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 398,
+    "fields": {
+      "planting": 53,
+      "work_type": 14,
+      "planned_date": "2025-12-07",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 399,
+    "fields": {
+      "planting": 53,
+      "work_type": 15,
+      "planned_date": "2025-12-17",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 400,
+    "fields": {
+      "planting": 53,
+      "work_type": 14,
+      "planned_date": "2025-12-27",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 401,
+    "fields": {
+      "planting": 53,
+      "work_type": 19,
+      "planned_date": "2026-01-06",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 402,
+    "fields": {
+      "planting": 54,
+      "work_type": 12,
+      "planned_date": "2025-11-24",
+      "actual_date": "2025-11-24",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 403,
+    "fields": {
+      "planting": 54,
+      "work_type": 13,
+      "planned_date": "2025-11-25",
+      "actual_date": "2025-11-26",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 404,
+    "fields": {
+      "planting": 54,
+      "work_type": 14,
+      "planned_date": "2025-11-29",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 405,
+    "fields": {
+      "planting": 54,
+      "work_type": 15,
+      "planned_date": "2025-12-04",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 406,
+    "fields": {
+      "planting": 54,
+      "work_type": 14,
+      "planned_date": "2025-12-09",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 407,
+    "fields": {
+      "planting": 54,
+      "work_type": 17,
+      "planned_date": "2025-12-14",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 408,
+    "fields": {
+      "planting": 54,
+      "work_type": 15,
+      "planned_date": "2025-12-19",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 409,
+    "fields": {
+      "planting": 54,
+      "work_type": 14,
+      "planned_date": "2025-12-24",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 410,
+    "fields": {
+      "planting": 54,
+      "work_type": 19,
+      "planned_date": "2025-12-29",
+      "actual_date": null,
+      "status": "planned"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 411,
+    "fields": {
+      "planting": 55,
+      "work_type": 12,
+      "planned_date": "2025-09-14",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 412,
+    "fields": {
+      "planting": 55,
+      "work_type": 13,
+      "planned_date": "2025-09-15",
+      "actual_date": "2025-09-16",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 413,
+    "fields": {
+      "planting": 55,
+      "work_type": 14,
+      "planned_date": "2025-09-19",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 414,
+    "fields": {
+      "planting": 55,
+      "work_type": 15,
+      "planned_date": "2025-09-24",
+      "actual_date": "2025-09-24",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 415,
+    "fields": {
+      "planting": 55,
+      "work_type": 14,
+      "planned_date": "2025-09-29",
+      "actual_date": "2025-09-29",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 416,
+    "fields": {
+      "planting": 55,
+      "work_type": 17,
+      "planned_date": "2025-10-04",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 417,
+    "fields": {
+      "planting": 55,
+      "work_type": 15,
+      "planned_date": "2025-10-09",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 418,
+    "fields": {
+      "planting": 55,
+      "work_type": 14,
+      "planned_date": "2025-10-14",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 419,
+    "fields": {
+      "planting": 55,
+      "work_type": 19,
+      "planned_date": "2025-10-19",
+      "actual_date": "2025-10-20",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 420,
+    "fields": {
+      "planting": 56,
+      "work_type": 12,
+      "planned_date": "2025-09-04",
+      "actual_date": "2025-09-05",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 421,
+    "fields": {
+      "planting": 56,
+      "work_type": 13,
+      "planned_date": "2025-09-05",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 422,
+    "fields": {
+      "planting": 56,
+      "work_type": 14,
+      "planned_date": "2025-09-14",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 423,
+    "fields": {
+      "planting": 56,
+      "work_type": 15,
+      "planned_date": "2025-09-24",
+      "actual_date": "2025-09-24",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 424,
+    "fields": {
+      "planting": 56,
+      "work_type": 14,
+      "planned_date": "2025-10-04",
+      "actual_date": "2025-10-04",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 425,
+    "fields": {
+      "planting": 56,
+      "work_type": 19,
+      "planned_date": "2025-10-14",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 426,
+    "fields": {
+      "planting": 57,
+      "work_type": 12,
+      "planned_date": "2025-08-23",
+      "actual_date": "2025-08-25",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 427,
+    "fields": {
+      "planting": 57,
+      "work_type": 13,
+      "planned_date": "2025-08-24",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 428,
+    "fields": {
+      "planting": 57,
+      "work_type": 14,
+      "planned_date": "2025-09-02",
+      "actual_date": "2025-09-02",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 429,
+    "fields": {
+      "planting": 57,
+      "work_type": 15,
+      "planned_date": "2025-09-12",
+      "actual_date": "2025-09-12",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 430,
+    "fields": {
+      "planting": 57,
+      "work_type": 14,
+      "planned_date": "2025-09-22",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 431,
+    "fields": {
+      "planting": 57,
+      "work_type": 19,
+      "planned_date": "2025-10-02",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 432,
+    "fields": {
+      "planting": 58,
+      "work_type": 12,
+      "planned_date": "2025-09-07",
+      "actual_date": "2025-09-08",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 433,
+    "fields": {
+      "planting": 58,
+      "work_type": 13,
+      "planned_date": "2025-09-08",
+      "actual_date": "2025-09-09",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 434,
+    "fields": {
+      "planting": 58,
+      "work_type": 14,
+      "planned_date": "2025-09-17",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 435,
+    "fields": {
+      "planting": 58,
+      "work_type": 15,
+      "planned_date": "2025-09-27",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 436,
+    "fields": {
+      "planting": 58,
+      "work_type": 14,
+      "planned_date": "2025-10-07",
+      "actual_date": "2025-10-09",
+      "status": "completed"
+    }
+  },
+  {
+    "model": "greenhouse.workschedule",
+    "pk": 437,
+    "fields": {
+      "planting": 58,
+      "work_type": 19,
+      "planned_date": "2025-10-17",
+      "actual_date": null,
+      "status": "in_progress"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 81,
+    "fields": {
+      "work_schedule": 252,
+      "water_volume": "64.72",
+      "fertilizer_amount": "5.82",
+      "labor_hours": "2.44",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 82,
+    "fields": {
+      "work_schedule": 270,
+      "water_volume": "48.33",
+      "fertilizer_amount": "7.26",
+      "labor_hours": "1.90",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 83,
+    "fields": {
+      "work_schedule": 345,
+      "water_volume": "98.18",
+      "fertilizer_amount": "7.09",
+      "labor_hours": "4.46",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 84,
+    "fields": {
+      "work_schedule": 254,
+      "water_volume": "106.59",
+      "fertilizer_amount": "1.81",
+      "labor_hours": "2.20",
+      "notes": "Полив выполнен. Температура воды: 22°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 85,
+    "fields": {
+      "work_schedule": 346,
+      "water_volume": "80.47",
+      "fertilizer_amount": "6.63",
+      "labor_hours": "4.46",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 86,
+    "fields": {
+      "work_schedule": 333,
+      "water_volume": "68.38",
+      "fertilizer_amount": "7.05",
+      "labor_hours": "2.81",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 87,
+    "fields": {
+      "work_schedule": 264,
+      "water_volume": "83.04",
+      "fertilizer_amount": "8.11",
+      "labor_hours": "1.46",
+      "notes": "Работа выполнена. Погодные условия: дождь"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 88,
+    "fields": {
+      "work_schedule": 426,
+      "water_volume": "54.39",
+      "fertilizer_amount": "4.47",
+      "labor_hours": "1.37",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 89,
+    "fields": {
+      "work_schedule": 265,
+      "water_volume": "76.76",
+      "fertilizer_amount": "4.27",
+      "labor_hours": "2.63",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 90,
+    "fields": {
+      "work_schedule": 255,
+      "water_volume": "174.55",
+      "fertilizer_amount": "13.23",
+      "labor_hours": "3.74",
+      "notes": "Внесены удобрения: NPK 16-11-11"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 91,
+    "fields": {
+      "work_schedule": 316,
+      "water_volume": "27.12",
+      "fertilizer_amount": "0.58",
+      "labor_hours": "4.71",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 92,
+    "fields": {
+      "work_schedule": 339,
+      "water_volume": "2.22",
+      "fertilizer_amount": "3.58",
+      "labor_hours": "1.58",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 93,
+    "fields": {
+      "work_schedule": 317,
+      "water_volume": "241.09",
+      "fertilizer_amount": "1.92",
+      "labor_hours": "1.67",
+      "notes": "Полив выполнен. Температура воды: 25°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 94,
+    "fields": {
+      "work_schedule": 266,
+      "water_volume": "260.57",
+      "fertilizer_amount": "2.02",
+      "labor_hours": "1.54",
+      "notes": "Полив выполнен. Температура воды: 23°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 95,
+    "fields": {
+      "work_schedule": 273,
+      "water_volume": "150.58",
+      "fertilizer_amount": "18.13",
+      "labor_hours": "2.77",
+      "notes": "Внесены удобрения: NPK 17-20-19"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 96,
+    "fields": {
+      "work_schedule": 428,
+      "water_volume": "449.37",
+      "fertilizer_amount": "4.69",
+      "labor_hours": "2.19",
+      "notes": "Полив выполнен. Температура воды: 25°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 97,
+    "fields": {
+      "work_schedule": 348,
+      "water_volume": "171.48",
+      "fertilizer_amount": "10.09",
+      "labor_hours": "3.74",
+      "notes": "Внесены удобрения: NPK 11-15-17"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 98,
+    "fields": {
+      "work_schedule": 256,
+      "water_volume": "288.40",
+      "fertilizer_amount": "4.11",
+      "labor_hours": "2.19",
+      "notes": "Полив выполнен. Температура воды: 18°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 99,
+    "fields": {
+      "work_schedule": 420,
+      "water_volume": "1.98",
+      "fertilizer_amount": "2.00",
+      "labor_hours": "1.99",
+      "notes": "Работа выполнена. Погодные условия: дождь"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 100,
+    "fields": {
+      "work_schedule": 341,
+      "water_volume": "415.83",
+      "fertilizer_amount": "1.43",
+      "labor_hours": "1.01",
+      "notes": "Полив выполнен. Температура воды: 20°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 101,
+    "fields": {
+      "work_schedule": 432,
+      "water_volume": "40.16",
+      "fertilizer_amount": "6.33",
+      "labor_hours": "3.63",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 102,
+    "fields": {
+      "work_schedule": 318,
+      "water_volume": "138.87",
+      "fertilizer_amount": "14.59",
+      "labor_hours": "3.00",
+      "notes": "Внесены удобрения: NPK 14-15-20"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 103,
+    "fields": {
+      "work_schedule": 433,
+      "water_volume": "29.74",
+      "fertilizer_amount": "5.86",
+      "labor_hours": "1.95",
+      "notes": "Работа выполнена. Погодные условия: дождь"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 104,
+    "fields": {
+      "work_schedule": 429,
+      "water_volume": "51.62",
+      "fertilizer_amount": "18.87",
+      "labor_hours": "2.01",
+      "notes": "Внесены удобрения: NPK 18-12-20"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 105,
+    "fields": {
+      "work_schedule": 349,
+      "water_volume": "375.56",
+      "fertilizer_amount": "1.38",
+      "labor_hours": "1.66",
+      "notes": "Полив выполнен. Температура воды: 25°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 106,
+    "fields": {
+      "work_schedule": 412,
+      "water_volume": "64.69",
+      "fertilizer_amount": "1.61",
+      "labor_hours": "3.25",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 107,
+    "fields": {
+      "work_schedule": 337,
+      "water_volume": "487.40",
+      "fertilizer_amount": "2.57",
+      "labor_hours": "1.06",
+      "notes": "Полив выполнен. Температура воды: 21°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 108,
+    "fields": {
+      "work_schedule": 275,
+      "water_volume": "0.00",
+      "fertilizer_amount": "0.00",
+      "labor_hours": "6.44",
+      "notes": "Собрано урожая. Качество: хорошее"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 109,
+    "fields": {
+      "work_schedule": 384,
+      "water_volume": "97.81",
+      "fertilizer_amount": "0.96",
+      "labor_hours": "3.68",
+      "notes": "Работа выполнена. Погодные условия: дождь"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 110,
+    "fields": {
+      "work_schedule": 350,
+      "water_volume": "0.00",
+      "fertilizer_amount": "0.00",
+      "labor_hours": "7.96",
+      "notes": "Собрано урожая. Качество: отличное"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 111,
+    "fields": {
+      "work_schedule": 295,
+      "water_volume": "51.10",
+      "fertilizer_amount": "7.40",
+      "labor_hours": "2.32",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 112,
+    "fields": {
+      "work_schedule": 390,
+      "water_volume": "87.06",
+      "fertilizer_amount": "6.07",
+      "labor_hours": "4.81",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 113,
+    "fields": {
+      "work_schedule": 414,
+      "water_volume": "78.76",
+      "fertilizer_amount": "13.72",
+      "labor_hours": "2.82",
+      "notes": "Внесены удобрения: NPK 13-18-17"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 114,
+    "fields": {
+      "work_schedule": 423,
+      "water_volume": "98.06",
+      "fertilizer_amount": "9.43",
+      "labor_hours": "3.25",
+      "notes": "Внесены удобрения: NPK 11-12-15"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 115,
+    "fields": {
+      "work_schedule": 391,
+      "water_volume": "4.43",
+      "fertilizer_amount": "0.67",
+      "labor_hours": "1.24",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 116,
+    "fields": {
+      "work_schedule": 343,
+      "water_volume": "243.80",
+      "fertilizer_amount": "3.50",
+      "labor_hours": "1.51",
+      "notes": "Полив выполнен. Температура воды: 18°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 117,
+    "fields": {
+      "work_schedule": 296,
+      "water_volume": "174.95",
+      "fertilizer_amount": "3.41",
+      "labor_hours": "2.53",
+      "notes": "Полив выполнен. Температура воды: 20°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 118,
+    "fields": {
+      "work_schedule": 321,
+      "water_volume": "55.95",
+      "fertilizer_amount": "0.42",
+      "labor_hours": "4.96",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 119,
+    "fields": {
+      "work_schedule": 338,
+      "water_volume": "0.00",
+      "fertilizer_amount": "0.00",
+      "labor_hours": "4.25",
+      "notes": "Собрано урожая. Качество: хорошее"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 120,
+    "fields": {
+      "work_schedule": 415,
+      "water_volume": "472.18",
+      "fertilizer_amount": "0.07",
+      "labor_hours": "2.30",
+      "notes": "Полив выполнен. Температура воды: 18°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 121,
+    "fields": {
+      "work_schedule": 386,
+      "water_volume": "268.47",
+      "fertilizer_amount": "1.01",
+      "labor_hours": "2.92",
+      "notes": "Полив выполнен. Температура воды: 19°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 122,
+    "fields": {
+      "work_schedule": 424,
+      "water_volume": "432.05",
+      "fertilizer_amount": "3.59",
+      "labor_hours": "2.57",
+      "notes": "Полив выполнен. Температура воды: 20°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 123,
+    "fields": {
+      "work_schedule": 322,
+      "water_volume": "126.57",
+      "fertilizer_amount": "12.54",
+      "labor_hours": "2.87",
+      "notes": "Внесены удобрения: NPK 20-14-16"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 124,
+    "fields": {
+      "work_schedule": 358,
+      "water_volume": "87.34",
+      "fertilizer_amount": "4.90",
+      "labor_hours": "4.61",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 125,
+    "fields": {
+      "work_schedule": 436,
+      "water_volume": "457.42",
+      "fertilizer_amount": "4.24",
+      "labor_hours": "1.77",
+      "notes": "Полив выполнен. Температура воды: 25°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 126,
+    "fields": {
+      "work_schedule": 380,
+      "water_volume": "328.49",
+      "fertilizer_amount": "4.70",
+      "labor_hours": "1.83",
+      "notes": "Полив выполнен. Температура воды: 24°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 127,
+    "fields": {
+      "work_schedule": 387,
+      "water_volume": "99.92",
+      "fertilizer_amount": "7.60",
+      "labor_hours": "3.80",
+      "notes": "Внесены удобрения: NPK 19-10-16"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 128,
+    "fields": {
+      "work_schedule": 393,
+      "water_volume": "181.87",
+      "fertilizer_amount": "10.27",
+      "labor_hours": "3.31",
+      "notes": "Внесены удобрения: NPK 19-20-14"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 129,
+    "fields": {
+      "work_schedule": 240,
+      "water_volume": "35.32",
+      "fertilizer_amount": "4.58",
+      "labor_hours": "1.48",
+      "notes": "Работа выполнена. Погодные условия: дождь"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 130,
+    "fields": {
+      "work_schedule": 300,
+      "water_volume": "159.15",
+      "fertilizer_amount": "5.53",
+      "labor_hours": "2.84",
+      "notes": "Внесены удобрения: NPK 12-10-14"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 131,
+    "fields": {
+      "work_schedule": 419,
+      "water_volume": "0.00",
+      "fertilizer_amount": "0.00",
+      "labor_hours": "4.38",
+      "notes": "Собрано урожая. Качество: отличное"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 132,
+    "fields": {
+      "work_schedule": 324,
+      "water_volume": "88.26",
+      "fertilizer_amount": "5.02",
+      "labor_hours": "3.06",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 133,
+    "fields": {
+      "work_schedule": 301,
+      "water_volume": "274.97",
+      "fertilizer_amount": "2.97",
+      "labor_hours": "1.91",
+      "notes": "Полив выполнен. Температура воды: 24°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 134,
+    "fields": {
+      "work_schedule": 362,
+      "water_volume": "21.33",
+      "fertilizer_amount": "4.67",
+      "labor_hours": "1.35",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 135,
+    "fields": {
+      "work_schedule": 282,
+      "water_volume": "65.37",
+      "fertilizer_amount": "5.49",
+      "labor_hours": "1.99",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 136,
+    "fields": {
+      "work_schedule": 291,
+      "water_volume": "88.96",
+      "fertilizer_amount": "11.04",
+      "labor_hours": "2.31",
+      "notes": "Внесены удобрения: NPK 10-14-16"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 137,
+    "fields": {
+      "work_schedule": 242,
+      "water_volume": "253.58",
+      "fertilizer_amount": "0.63",
+      "labor_hours": "2.90",
+      "notes": "Полив выполнен. Температура воды: 19°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 138,
+    "fields": {
+      "work_schedule": 325,
+      "water_volume": "63.12",
+      "fertilizer_amount": "5.11",
+      "labor_hours": "2.55",
+      "notes": "Работа выполнена. Погодные условия: дождь"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 139,
+    "fields": {
+      "work_schedule": 382,
+      "water_volume": "389.73",
+      "fertilizer_amount": "2.82",
+      "labor_hours": "1.35",
+      "notes": "Полив выполнен. Температура воды: 23°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 140,
+    "fields": {
+      "work_schedule": 389,
+      "water_volume": "0.00",
+      "fertilizer_amount": "0.00",
+      "labor_hours": "4.38",
+      "notes": "Собрано урожая. Качество: хорошее"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 141,
+    "fields": {
+      "work_schedule": 395,
+      "water_volume": "0.00",
+      "fertilizer_amount": "0.00",
+      "labor_hours": "7.58",
+      "notes": "Собрано урожая. Качество: хорошее"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 142,
+    "fields": {
+      "work_schedule": 284,
+      "water_volume": "343.28",
+      "fertilizer_amount": "2.90",
+      "labor_hours": "1.42",
+      "notes": "Полив выполнен. Температура воды: 25°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 143,
+    "fields": {
+      "work_schedule": 292,
+      "water_volume": "254.12",
+      "fertilizer_amount": "1.85",
+      "labor_hours": "2.60",
+      "notes": "Полив выполнен. Температура воды: 20°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 144,
+    "fields": {
+      "work_schedule": 243,
+      "water_volume": "78.30",
+      "fertilizer_amount": "9.77",
+      "labor_hours": "2.65",
+      "notes": "Внесены удобрения: NPK 16-19-17"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 145,
+    "fields": {
+      "work_schedule": 351,
+      "water_volume": "18.50",
+      "fertilizer_amount": "1.37",
+      "labor_hours": "3.55",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 146,
+    "fields": {
+      "work_schedule": 327,
+      "water_volume": "51.70",
+      "fertilizer_amount": "9.96",
+      "labor_hours": "4.42",
+      "notes": "Работа выполнена. Погодные условия: дождь"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 147,
+    "fields": {
+      "work_schedule": 365,
+      "water_volume": "0.00",
+      "fertilizer_amount": "0.00",
+      "labor_hours": "4.34",
+      "notes": "Собрано урожая. Качество: хорошее"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 148,
+    "fields": {
+      "work_schedule": 310,
+      "water_volume": "51.41",
+      "fertilizer_amount": "6.21",
+      "labor_hours": "1.37",
+      "notes": "Работа выполнена. Погодные условия: дождь"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 149,
+    "fields": {
+      "work_schedule": 285,
+      "water_volume": "177.97",
+      "fertilizer_amount": "17.40",
+      "labor_hours": "3.62",
+      "notes": "Внесены удобрения: NPK 14-19-18"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 150,
+    "fields": {
+      "work_schedule": 293,
+      "water_volume": "0.00",
+      "fertilizer_amount": "0.00",
+      "labor_hours": "6.94",
+      "notes": "Собрано урожая. Качество: хорошее"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 151,
+    "fields": {
+      "work_schedule": 246,
+      "water_volume": "74.03",
+      "fertilizer_amount": "0.08",
+      "labor_hours": "1.12",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 152,
+    "fields": {
+      "work_schedule": 353,
+      "water_volume": "100.71",
+      "fertilizer_amount": "1.39",
+      "labor_hours": "1.05",
+      "notes": "Полив выполнен. Температура воды: 22°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 153,
+    "fields": {
+      "work_schedule": 329,
+      "water_volume": "334.66",
+      "fertilizer_amount": "1.52",
+      "labor_hours": "1.94",
+      "notes": "Полив выполнен. Температура воды: 23°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 154,
+    "fields": {
+      "work_schedule": 260,
+      "water_volume": "359.83",
+      "fertilizer_amount": "2.23",
+      "labor_hours": "1.01",
+      "notes": "Полив выполнен. Температура воды: 24°C"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 155,
+    "fields": {
+      "work_schedule": 303,
+      "water_volume": "17.79",
+      "fertilizer_amount": "4.53",
+      "labor_hours": "1.98",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 156,
+    "fields": {
+      "work_schedule": 304,
+      "water_volume": "19.51",
+      "fertilizer_amount": "0.06",
+      "labor_hours": "2.95",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 157,
+    "fields": {
+      "work_schedule": 402,
+      "water_volume": "52.56",
+      "fertilizer_amount": "4.74",
+      "labor_hours": "2.80",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 158,
+    "fields": {
+      "work_schedule": 403,
+      "water_volume": "44.47",
+      "fertilizer_amount": "9.65",
+      "labor_hours": "3.49",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 159,
+    "fields": {
+      "work_schedule": 354,
+      "water_volume": "61.76",
+      "fertilizer_amount": "19.64",
+      "labor_hours": "2.27",
+      "notes": "Внесены удобрения: NPK 18-15-14"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 160,
+    "fields": {
+      "work_schedule": 366,
+      "water_volume": "80.33",
+      "fertilizer_amount": "6.60",
+      "labor_hours": "2.91",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 161,
+    "fields": {
+      "work_schedule": 330,
+      "water_volume": "170.73",
+      "fertilizer_amount": "15.28",
+      "labor_hours": "3.44",
+      "notes": "Внесены удобрения: NPK 20-10-18"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 162,
+    "fields": {
+      "work_schedule": 367,
+      "water_volume": "48.86",
+      "fertilizer_amount": "0.72",
+      "labor_hours": "4.61",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 163,
+    "fields": {
+      "work_schedule": 277,
+      "water_volume": "48.22",
+      "fertilizer_amount": "5.97",
+      "labor_hours": "4.33",
+      "notes": "Работа выполнена. Погодные условия: пасмурно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 164,
+    "fields": {
+      "work_schedule": 397,
+      "water_volume": "26.04",
+      "fertilizer_amount": "7.56",
+      "labor_hours": "4.79",
+      "notes": "Работа выполнена. Погодные условия: ясно"
+    }
+  },
+  {
+    "model": "greenhouse.resourceusage",
+    "pk": 165,
+    "fields": {
+      "work_schedule": 261,
+      "water_volume": "138.73",
+      "fertilizer_amount": "16.05",
+      "labor_hours": "2.23",
+      "notes": "Внесены удобрения: NPK 11-13-18"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 29,
+    "fields": {
+      "planting": 32,
+      "harvest_date": "2025-09-28",
+      "quantity": "53.70",
+      "unit": "piece",
+      "quality": "average"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 30,
+    "fields": {
+      "planting": 32,
+      "harvest_date": "2025-10-05",
+      "quantity": "69.20",
+      "unit": "box",
+      "quality": "poor"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 31,
+    "fields": {
+      "planting": 34,
+      "harvest_date": "2025-10-06",
+      "quantity": "34.66",
+      "unit": "piece",
+      "quality": "excellent"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 32,
+    "fields": {
+      "planting": 35,
+      "harvest_date": "2025-10-01",
+      "quantity": "73.07",
+      "unit": "kg",
+      "quality": "poor"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 33,
+    "fields": {
+      "planting": 38,
+      "harvest_date": "2025-11-24",
+      "quantity": "64.04",
+      "unit": "kg",
+      "quality": "excellent"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 34,
+    "fields": {
+      "planting": 38,
+      "harvest_date": "2025-12-01",
+      "quantity": "32.40",
+      "unit": "kg",
+      "quality": "average"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 35,
+    "fields": {
+      "planting": 38,
+      "harvest_date": "2025-12-08",
+      "quantity": "98.13",
+      "unit": "box",
+      "quality": "excellent"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 36,
+    "fields": {
+      "planting": 39,
+      "harvest_date": "2025-10-28",
+      "quantity": "51.12",
+      "unit": "kg",
+      "quality": "good"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 37,
+    "fields": {
+      "planting": 39,
+      "harvest_date": "2025-11-04",
+      "quantity": "60.53",
+      "unit": "kg",
+      "quality": "good"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 38,
+    "fields": {
+      "planting": 39,
+      "harvest_date": "2025-11-11",
+      "quantity": "35.65",
+      "unit": "kg",
+      "quality": "excellent"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 39,
+    "fields": {
+      "planting": 42,
+      "harvest_date": "2025-11-03",
+      "quantity": "129.13",
+      "unit": "kg",
+      "quality": "excellent"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 40,
+    "fields": {
+      "planting": 44,
+      "harvest_date": "2025-10-06",
+      "quantity": "86.25",
+      "unit": "piece",
+      "quality": "excellent"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 41,
+    "fields": {
+      "planting": 44,
+      "harvest_date": "2025-10-13",
+      "quantity": "81.90",
+      "unit": "kg",
+      "quality": "average"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 42,
+    "fields": {
+      "planting": 45,
+      "harvest_date": "2025-10-07",
+      "quantity": "72.77",
+      "unit": "box",
+      "quality": "average"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 43,
+    "fields": {
+      "planting": 45,
+      "harvest_date": "2025-10-14",
+      "quantity": "72.67",
+      "unit": "box",
+      "quality": "good"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 44,
+    "fields": {
+      "planting": 46,
+      "harvest_date": "2025-09-26",
+      "quantity": "65.00",
+      "unit": "box",
+      "quality": "poor"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 45,
+    "fields": {
+      "planting": 46,
+      "harvest_date": "2025-10-03",
+      "quantity": "84.23",
+      "unit": "kg",
+      "quality": "good"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 46,
+    "fields": {
+      "planting": 48,
+      "harvest_date": "2025-11-09",
+      "quantity": "105.54",
+      "unit": "kg",
+      "quality": "poor"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 47,
+    "fields": {
+      "planting": 48,
+      "harvest_date": "2025-11-16",
+      "quantity": "135.45",
+      "unit": "kg",
+      "quality": "poor"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 48,
+    "fields": {
+      "planting": 48,
+      "harvest_date": "2025-11-23",
+      "quantity": "131.26",
+      "unit": "kg",
+      "quality": "good"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 49,
+    "fields": {
+      "planting": 50,
+      "harvest_date": "2025-10-27",
+      "quantity": "44.55",
+      "unit": "piece",
+      "quality": "average"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 50,
+    "fields": {
+      "planting": 50,
+      "harvest_date": "2025-11-03",
+      "quantity": "24.30",
+      "unit": "piece",
+      "quality": "good"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 51,
+    "fields": {
+      "planting": 51,
+      "harvest_date": "2025-11-17",
+      "quantity": "35.28",
+      "unit": "box",
+      "quality": "poor"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 52,
+    "fields": {
+      "planting": 51,
+      "harvest_date": "2025-11-24",
+      "quantity": "98.44",
+      "unit": "piece",
+      "quality": "good"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 53,
+    "fields": {
+      "planting": 52,
+      "harvest_date": "2025-11-21",
+      "quantity": "51.37",
+      "unit": "kg",
+      "quality": "good"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 54,
+    "fields": {
+      "planting": 52,
+      "harvest_date": "2025-11-28",
+      "quantity": "92.94",
+      "unit": "piece",
+      "quality": "excellent"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 55,
+    "fields": {
+      "planting": 52,
+      "harvest_date": "2025-12-05",
+      "quantity": "80.52",
+      "unit": "kg",
+      "quality": "poor"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 56,
+    "fields": {
+      "planting": 55,
+      "harvest_date": "2025-10-19",
+      "quantity": "72.53",
+      "unit": "kg",
+      "quality": "poor"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 57,
+    "fields": {
+      "planting": 55,
+      "harvest_date": "2025-10-26",
+      "quantity": "88.21",
+      "unit": "kg",
+      "quality": "good"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 58,
+    "fields": {
+      "planting": 55,
+      "harvest_date": "2025-11-02",
+      "quantity": "94.72",
+      "unit": "kg",
+      "quality": "poor"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 59,
+    "fields": {
+      "planting": 56,
+      "harvest_date": "2025-09-29",
+      "quantity": "15.46",
+      "unit": "piece",
+      "quality": "good"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 60,
+    "fields": {
+      "planting": 56,
+      "harvest_date": "2025-10-06",
+      "quantity": "21.94",
+      "unit": "piece",
+      "quality": "poor"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 61,
+    "fields": {
+      "planting": 57,
+      "harvest_date": "2025-10-12",
+      "quantity": "36.77",
+      "unit": "kg",
+      "quality": "excellent"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 62,
+    "fields": {
+      "planting": 58,
+      "harvest_date": "2025-10-21",
+      "quantity": "65.14",
+      "unit": "box",
+      "quality": "excellent"
+    }
+  },
+  {
+    "model": "greenhouse.harvest",
+    "pk": 63,
+    "fields": {
+      "planting": 58,
+      "harvest_date": "2025-10-28",
+      "quantity": "61.52",
+      "unit": "kg",
+      "quality": "average"
+    }
+  },
+  {
+    "model": "thumbnail.kvstore",
+    "pk": "sorl-thumbnail||image||55ef069e006ae133c386a0eb3b3bd09f",
+    "fields": {
+      "value": "{\"name\": \"cache/15/d4/15d44c81ded375badf5649be861686b3.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [800, 600]}"
+    }
+  },
+  {
+    "model": "thumbnail.kvstore",
+    "pk": "sorl-thumbnail||image||6d1f2a0a636643233c8e4f70845dd9d4",
+    "fields": {
+      "value": "{\"name\": \"greenhouses/sunset-over-rural-farm-green-growth-thrives-generated-by-ai-free-photo.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [613, 350]}"
+    }
+  },
+  {
+    "model": "thumbnail.kvstore",
+    "pk": "sorl-thumbnail||image||724e55c023c469c6584bc5bc1a011975",
+    "fields": {
+      "value": "{\"name\": \"cache/15/d4/15d44c81ded375badf5649be861686b3_zbRsQl3.jpg\", \"storage\": \"django.core.files.storage.filesystem.FileSystemStorage\", \"size\": [800, 600]}"
+    }
+  },
+  {
+    "model": "thumbnail.kvstore",
+    "pk": "sorl-thumbnail||thumbnails||6d1f2a0a636643233c8e4f70845dd9d4",
+    "fields": {
+      "value": "[\"55ef069e006ae133c386a0eb3b3bd09f\", \"724e55c023c469c6584bc5bc1a011975\"]"
+    }
+  }
+]

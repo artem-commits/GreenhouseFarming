@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+
+{% block title %}Отчеты{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h2>📊 Отчеты и аналитика</h2>
+        
+        <!-- Статистика по урожаю -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">🌱 Урожай по культурам</h5>
+            </div>
+            <div class="card-body">
+                {% if harvest_stats %}
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Культура</th>
+                                <th>Общее количество</th>
+                                <th>Количество сборов</th>
+                                <th>Средний сбор</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for stat in harvest_stats %}
+                            <tr>
+                                <td>{{ stat.planting__vegetable_type__name }}</td>
+                                <td><strong>{{ stat.total_quantity }}</strong></td>
+                                <td>{{ stat.harvest_count }}</td>
+                                <td>{{ stat.total_quantity|floatformat:2 }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <p class="text-muted">Нет данных об урожае</p>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Статистика по работам -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">📅 Статистика работ</h5>
+            </div>
+            <div class="card-body">
+                {% if work_stats %}
+                <div class="row">
+                    {% for stat in work_stats %}
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h6>{{ stat.work_type__name }}</h6>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <small class="text-muted">Выполнено</small>
+                                        <h5 class="text-success">{{ stat.total_completed }}</h5>
+                                    </div>
+                                    <div class="col-6">
+                                        <small class="text-muted">Запланировано</small>
+                                        <h5 class="text-warning">{{ stat.total_planned }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-muted">Нет данных о работах</p>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Ресурсы -->
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">💧 Затраты ресурсов</h5>
+            </div>
+            <div class="card-body">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h3 class="text-primary">{{ resource_stats.total_water|floatformat:2 }}</h3>
+                        <p class="text-muted">литров воды</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="text-success">{{ resource_stats.total_fertilizer|floatformat:2 }}</h3>
+                        <p class="text-muted">кг удобрений</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="text-warning">{{ resource_stats.total_labor|floatformat:2 }}</h3>
+                        <p class="text-muted">часов работы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

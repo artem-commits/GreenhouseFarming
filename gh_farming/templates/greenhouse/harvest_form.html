@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}{% if object %}Редактирование урожая{% else %}Новый урожай{% endif %}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">
+                    {% if object %}✏️ Редактирование урожая{% else %}📊 Новый урожай{% endif %}
+                </h4>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    
+                    {% for field in form %}
+                    <div class="mb-3">
+                        <label for="{{ field.id_for_label }}" class="form-label">
+                            {{ field.label }}
+                        </label>
+                        {{ field }}
+                        {% if field.help_text %}
+                        <div class="form-text">{{ field.help_text }}</div>
+                        {% endif %}
+                        {% if field.errors %}
+                        <div class="text-danger small">
+                            {{ field.errors }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                    
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-success">
+                            {% if object %}💾 Сохранить{% else %}✅ Добавить урожай{% endif %}
+                        </button>
+                        <a href="{% if object %}{% url 'greenhouse:planting_detail' object.planting.pk %}{% else %}{% url 'greenhouse:planting_list' %}{% endif %}" 
+                           class="btn btn-secondary">
+                            ❌ Отмена
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
