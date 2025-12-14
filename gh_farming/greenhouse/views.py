@@ -11,7 +11,6 @@ from .forms import PlantingForm, WorkScheduleForm, HarvestForm
 from .models import Greenhouse, Planting, WorkSchedule, Harvest, ScheduleTemplate, ResourceUsage
 
 
-# ==================== ГЛАВНАЯ СТРАНИЦА ====================
 
 class DashboardView(TemplateView):
     """Главная панель управления"""

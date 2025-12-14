@@ -45,6 +45,5 @@ if settings.DEBUG:
         document_root=settings.STATIC_ROOT
     )
 
-
 handler404 = 'pages.views.page_not_found'
 handler500 = 'pages.views.csrf_failure'
